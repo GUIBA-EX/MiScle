@@ -1,3 +1,5 @@
-scheme,pairs,evaluable_any,unknown,covered,exact,coverage_pct,exact_pct,common_evaluable,common_covered,common_exact,strict_WC,strict_GT
-ordinary,MiScle-S+MiScle-M,305,2,277,65,90.81967213114754,21.311475409836067,303,277,65,0,0
-degenerate,MiScle-SD+MiScle-MD,305,2,279,206,91.47540983606558,67.54098360655738,303,279,206,0,0
+scheme,pairs,evaluable_any,unknown,covered,exact,coverage_pct,exact_pct,strict_WC,strict_GT
+M_ordinary,MiScle-MR+MiScle-MV,304,3,282,78,92.76315789473684,25.657894736842106,103,111
+M_D,MiScle-MRD+MiScle-MVD,304,3,284,98,93.42105263157895,32.23684210526316,103,111
+S_plus_M_ordinary,MiScle-S+MiScle-MR+MiScle-MV,305,2,283,124,92.78688524590164,40.65573770491803,103,111
+S_plus_M_D,MiScle-SD+MiScle-MRD+MiScle-MVD,305,2,285,160,93.44262295081967,52.459016393442624,103,111

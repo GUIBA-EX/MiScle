@@ -1,11 +1,11 @@
 {
   "methods": [
-    "C++ exhaustive full-sequence paired scan",
-    "Independent Python bit-parallel full-sequence paired scan"
+    "C++ exhaustive raw-sequence paired scan",
+    "Independent Python bit-parallel raw-sequence paired scan"
   ],
-  "target_pairs_checked": 4,
-  "strict_background_pairs_checked": 4,
-  "independent_set_checks": 24,
+  "final_pairs": 6,
+  "mixture_cross_pairs": 8,
+  "independent_set_checks": 84,
   "disagreements": 0,
   "target_product_bp": [
     70,

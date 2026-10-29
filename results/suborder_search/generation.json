@@ -1,0 +1,74 @@
+[
+  {
+    "side": "F",
+    "clade": "all",
+    "observed": 12,
+    "retained": 40,
+    "best": [
+      [
+        "AAGACCCCATGAAACTTTAC",
+        [
+          184,
+          11,
+          -1
+        ]
+      ],
+      [
+        "AAGACCCCATGGAACATTAG",
+        [
+          1,
+          1,
+          -1
+        ]
+      ]
+    ]
+  },
+  {
+    "side": "R",
+    "clade": "Refertina",
+    "observed": 7,
+    "retained": 12,
+    "best": [
+      [
+        "CCATAGTTCATTTTCGTTAC",
+        [
+          5,
+          3,
+          -1
+        ]
+      ],
+      [
+        "CCATAGTTCGTTTTCGTTAC",
+        [
+          5,
+          2,
+          -1
+        ]
+      ]
+    ]
+  },
+  {
+    "side": "R",
+    "clade": "Vacatina",
+    "observed": 15,
+    "retained": 33,
+    "best": [
+      [
+        "CCATAGTTCATTTTCGTTAC",
+        [
+          119,
+          27,
+          -1
+        ]
+      ],
+      [
+        "CCATAGTTCGTCTTCGTTAC",
+        [
+          105,
+          1,
+          -1
+        ]
+      ]
+    ]
+  }
+]

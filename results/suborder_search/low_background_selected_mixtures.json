@@ -1,0 +1,98 @@
+[
+  {
+    "mode": "ordinary",
+    "F": "AAGTCCCCATGGAACTTTAC",
+    "RR": "CTTAAGTCCGCCTTCGTTAC",
+    "RV": "TCATAGTTCGTTTTCGTTAC",
+    "covered": 282,
+    "exact": 13,
+    "balanced_coverage": 0.8766233766233766,
+    "strict_WC": 27,
+    "strict_GT": 111,
+    "thermal_pass": true,
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm": [
+          54.92277697113843,
+          54.92277697113843
+        ],
+        "RR_tm": [
+          56.282195828571616,
+          56.282195828571616
+        ],
+        "RV_tm": [
+          51.351999594540416,
+          51.351999594540416
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 3.5707773765980164
+      },
+      {
+        "scenario": "200_F_100_each_R",
+        "F_tm": [
+          56.91395367601757,
+          56.91395367601757
+        ],
+        "RR_tm": [
+          57.23214186432358,
+          57.23214186432358
+        ],
+        "RV_tm": [
+          52.29404043782904,
+          52.29404043782904
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.619913238188531
+      }
+    ]
+  },
+  {
+    "mode": "D",
+    "F": "AAGTCCCYATGGAACTTTAC",
+    "RR": "CTTRAGTCCGCCTTCGTTAC",
+    "RV": "CCATAGTTCRTTTTCGTTAC",
+    "covered": 284,
+    "exact": 19,
+    "balanced_coverage": 0.8896103896103896,
+    "strict_WC": 27,
+    "strict_GT": 111,
+    "thermal_pass": true,
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm": [
+          51.85120186157502,
+          54.92277697113843
+        ],
+        "RR_tm": [
+          56.282195828571616,
+          58.652680198648966
+        ],
+        "RV_tm": [
+          49.90984399038166,
+          52.40796225262676
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.0804485972535645
+      },
+      {
+        "scenario": "200_F_100_each_R",
+        "F_tm": [
+          52.83513352987893,
+          55.915353195181694
+        ],
+        "RR_tm": [
+          56.282195828571616,
+          58.652680198648966
+        ],
+        "RV_tm": [
+          49.90984399038166,
+          52.40796225262676
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 3.216340241026103
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+name,covered_species,product_min,product_max,internal_min,internal_max,observed_unshared_species,covered_genera,genera_without_observed_cross_genus_sharing
+MiScle-S,153,147,209,105,167,25,47,19
+MiScle-SD,155,147,209,105,167,27,48,20
+MiScle-M,124,99,186,59,146,26,73,23
+MiScle-MD,124,99,186,59,146,26,73,23

@@ -1,0 +1,3 @@
+scheme,pairs,evaluable_any,unknown,covered,exact,coverage_pct,exact_pct,common_evaluable,common_covered,common_exact,strict_WC,strict_GT
+ordinary,MiScle-S+MiScle-M,305,2,277,65,90.81967213114754,21.311475409836067,303,277,65,0,0
+degenerate,MiScle-SD+MiScle-MD,305,2,279,206,91.47540983606558,67.54098360655738,303,279,206,0,0

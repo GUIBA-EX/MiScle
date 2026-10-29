@@ -1,3 +1,4 @@
-scheme,accession,species,family,genus,evaluable,covered,exact
-degenerate,LC851788.1,Heterocyathus aequicostatus,Caryophylliidae,Heterocyathus,0,0,0
-degenerate,LC851787.1,Cycloseris distorta,Fungiidae,Cycloseris,0,0,0
+scheme,accession,species,family,suborder,evaluable,covered,exact
+M_D,LC851788.1,Heterocyathus aequicostatus,Caryophylliidae,Vacatina,0,0,0
+M_D,LC851787.1,Cycloseris distorta,Fungiidae,Vacatina,0,0,0
+M_D,NC_010245.2,Seriatopora caliendrum,Pocilloporidae,Vacatina,0,0,0

@@ -45,5 +45,27 @@
     "work/scleractinia16s/curated/panel.fasta": "6764b59853b187c6918cc162f5709906ec889b4e17ecf0213209778219aef720",
     "work/scleractinia16s/background.fasta": "ac5cc5b14f66883ec443a053be4571e679336c7c58528afb42695e30611f169b",
     "work/scleractinia16s/aligned.fasta": "f3dc7066a84921e58a0e4a1f052c980846dd25f8f2c7f66f3dfffb4f26e6c246"
+  },
+  "release": "M shared-F suborder variants",
+  "M_reference_endpoints": [
+    1561,
+    1580,
+    1741,
+    1760
+  ],
+  "suborder_search": {
+    "unique_oligos": 79,
+    "degeneracy_per_oligo_max": 8,
+    "strict_background_exploratory_gates": [
+      20,
+      150
+    ],
+    "selected_gate": {
+      "WC": 150,
+      "GT": 150,
+      "WC3": 1200
+    },
+    "selection": "Within two species of the best union coverage, maximize exact paired matches; then coverage and minimum suborder coverage",
+    "thermodynamics": "50 nM per variant and 200 nM F total / 100 nM each R total; entire 3-oligo mixture checked"
   }
 }

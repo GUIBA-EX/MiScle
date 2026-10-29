@@ -6,97 +6,113 @@
 
 ## Abstract
 
-MiScle compares two complementary mitochondrial 16S windows. Each window retains an ordinary A/C/G/T pair inspired by the alignment and conserved-anchor strategy of MiFish and a degenerate D pair inspired by the variation-compensation strategy of Anth-28S-eDNA. Ordinary and D primers share exactly the same reference endpoints. These are newly designed computational candidates, not the published MiFish or Anth28S sequences.
+MiScle compares two homologous mitochondrial 16S windows for scleractinian coral eDNA. S retains ordinary and D pairs. M now uses one shared forward primer and two reverse primers prioritizing Refertina and Vacatina: MR+MV for the ordinary formulation and MRD+MVD for the degenerate formulation. R/V denote design emphasis and D denotes degeneracy. Both suborders are targets; cross-coverage is allowed. Each M formulation contains three distinct oligos, with the shared F added once.
 
-Among 305 species evaluable at one or both windows, the predicted detection union is 277/305 (90.82%) for the two ordinary pairs and 279/305 (91.48%) for the two D pairs. Exact paired matches increase from 65/305 (21.31%) to 206/305 (67.54%). All four pairs have zero strict WC and GT paired hits in 9,145 background records. These union statistics describe separate PCR assays followed by taxon-level aggregation; same-tube multiplexing has not been evaluated.
+Among 304 evaluable species at M, the ordinary combination covers 282 (92.76%) with 78 exact paired matches (25.66%); the D combination covers 284 (93.42%) with 98 exact matches (32.24%). The original M and MD each covered 124 species, with 1 and 81 exact matches. Strict WC/GT background unions increase from 0/0 to 103/111 records. These are exploratory coverage-oriented candidates with a substantive background and exact-match tradeoff.
 
-## Primers
+Under the shared-F constraint, the new M-D union exactly matches only 12/154 Vacatina (7.79%), versus 75/154 (48.70%) for the original MD. Combining S with the new M-D formulation gives 160/305 exact matches, versus 206/305 for the original SD+MD. The wider M coverage therefore does not resolve exact matching in both suborders simultaneously. Tissue and mixed-template validation should retain the original M/MD as controls.
 
-Sequences are the target-specific portions, written 5′→3′ without adapters. S and M label homologous reference windows; actual product lengths vary among lineages. D denotes degeneracy.
+## Primers and names
+
+All target-specific sequences are written 5′→3′, without adapters. Y=C/T; R=A/G. S/M label homologous windows; product lengths vary among lineages. Degeneracy is capped at eight per oligo; each of the three M-D oligos selected here has degeneracy two.
 
 | Pair | Forward, 5′→3′ | Reverse, 5′→3′ | F/R degeneracy |
 |---|---|---|---:|
 | MiScle-S | `TTTGATAAGTGGGACAGTTTGG` | `TTAACGGGTCACTTAAACCC` | 1 / 1 |
 | MiScle-SD | `YTKGATAAGTGRGACAGTTTGG` | `YYAACGGGTCACTTWAACCC` | 8 / 8 |
-| MiScle-M | `AAGTCCCTATGGAGCTTTAC` | `CCATAGTTCATTTTCGTTAC` | 1 / 1 |
-| MiScle-MD | `AAGWCCCYATGGARCTTTAC` | `YCATAGYTCRTTTTCGTTAC` | 8 / 8 |
+| MiScle-MR | `AAGTCCCCATGGAACTTTAC` | `CTTAAGCCCGCCTTCGTTAC` | 1 / 1 |
+| MiScle-MV | `AAGTCCCCATGGAACTTTAC` | `TCATAGTTCGTTTTCGTTAC` | 1 / 1 |
+| MiScle-MRD | `AAGTCCCYATGGAACTTTAC` | `CTTAAGYCCGCCTTCGTTAC` | 2 / 2 |
+| MiScle-MVD | `AAGTCCCYATGGAACTTTAC` | `CCATAGTTCRTTTTCGTTAC` | 2 / 2 |
 
-Y=C/T; K=G/T; R=A/G; W=A/T. Each D oligo represents eight concrete sequences, giving up to 64 F×R combinations per pair. Supported ambiguity is allowed throughout the oligo; the earlier projects' restriction to the 3′ half was not applied to this design.
+MR and MV share exactly the same F; MRD and MVD share exactly the same F. All four M pairs use F1561–1580 and R1741–1760. Corresponding ordinary/D endpoints are identical. The two degeneracy values describe individual oligos, not the total complexity of the reaction.
 
-[Primer table](primer_pairs.csv) · [FASTA](primers.fasta) · [Parameters](selected.json)
+[Primer table](primer_pairs.csv) · [FASTA](primers.fasta) · [Parameters](selected.json) · [Original comparator sequences](results/baseline/primer_pairs.csv)
 
-## Methods
+## Materials and methods
 
-### Reference compilation
+### References and taxonomy
 
-Hisata et al. (2025) developed a **12S** assay. Here, annotated mitochondrial 16S sequences were extracted from eligible accessions in their Table 1, then supplemented with public Scleractinia records to include reef-building, non-reef and deep-water taxa. Of 110 audited paper accessions, 65 contained eligible 16S and 45 did not; the latter were excluded rather than counted as primer failures.
+Hisata et al. (2025) developed a **12S** system. Here, annotated mitochondrial 16S was extracted from eligible Table 1 accessions and supplemented with public Scleractinia records, including non-reef and deep-water taxa. Of 110 audited paper accessions, 65 contained eligible 16S and 45 did not; the latter are not counted as amplification failures. A target query returned 1,974 records. Combined curation retained 879 eligible 16S records. One representative per source taxid and binomial species label was selected using gene completeness, length and low ambiguity, without selecting for primer compatibility.
 
-A target query returned 1,974 records. Combined curation retained 879 eligible 16S records. One representative per source taxid and binomial species label was selected using gene completeness, length and ambiguity, without selecting for primer compatibility. The panel contains 307 species labels, 131 genera and 29 source family labels. Source taxonomy has not undergone a complete synonym and family revision, so these are not asserted to be 29 currently accepted families. Only annotated 16S/large-subunit mitochondrial rRNA features were extracted, with feature orientation preserved. Records shorter than 150 nt or with more than 5% ambiguous bases were excluded.
+The frozen panel contains 307 species labels, 131 genera and 29 source family labels. Source lineages assign 148 to Refertina, 157 to Vacatina and two as unassigned, using the framework recognized by WoRMS and Vaga et al. (2025). Guynia and Stenocyathus retain their unassigned source status. Family labels include older placements and do not assert 29 currently accepted families; genus and species results are also supplied. Only correctly oriented annotated 16S/mitochondrial large-subunit rRNA features were extracted. Records shorter than 150 nt or with more than 5% ambiguity were excluded. MAFFT was used for alignment (Katoh & Standley, 2013).
 
-MAFFT was used for alignment (Katoh & Standley, 2013). Coordinates refer to the extracted, ungapped 16S gene of *Acropora tenuis*, NC_003522.1, rather than whole-mitogenome positions. Window S is F1696–1717/R1826–1845, with a 150-bp reference span; window M is F1561–1580/R1741–1760, with a 200-bp span. Lineage-specific indels produce actual predicted primer-inclusive products of 147–209 bp and 99–186 bp, respectively.
+Coordinates are 1-based positions in the extracted, ungapped 16S gene of Acropora tenuis NC_003522.1, not whole-mitogenome positions. S is F1696–1717/R1826–1845 (150-bp reference span); M is F1561–1580/R1741–1760 (200 bp). Actual predicted primer-inclusive products among covered references are 147–209 bp for S, 186–298 bp for MR/MRD and 99–186 bp for MV/MVD.
 
-![Reference binding windows](figures/reference_windows.svg)
+![Reference binding positions](figures/reference_windows.svg)
 
-### Candidate generation and selection
+### Fixed-coordinate suborder search
 
-Conserved anchors were searched across reference spans of 150–250, 251–350 and 351–500 bp. The first pass examined 8,863 pairs; a complementary search examined another 5,582 pairs against taxa missed by the first window. Ranking considered species coverage, source-family representation and paired background amplification. This was a heuristic search, not an exhaustive guarantee of global optimality.
+The initial design adopted alignment, conserved-anchor, lineage-compensation and paired-evaluation principles from MiFish (Miya et al., 2015). This round fixed all four M endpoints and generated candidates from independently verified binding templates and homologous columns of missed references. Separate pools were built for the shared F, Refertina R and Vacatina R. Ordinary candidates used observed A/C/G/T templates and consensus. D candidates iteratively merged variation supported by homologous target columns, following the variation-compensation logic of Anth-28S-eDNA (McCartin et al., 2024), with degeneracy ≤8 per oligo. Ambiguity was not restricted to the 3′ half.
 
-Ordinary candidates were derived from lineage consensus, observed templates and limited concrete sequence combinations, using only A/C/G/T. Degenerate candidates incorporated variation observed in homologous target columns, with a maximum degeneracy of eight per oligo, following the variation-compensation principle of Anth-28S-eDNA (McCartin et al., 2024). Within each selected window, ordinary pairs were ranked independently by coverage and then exact matching, rather than generated by simply removing ambiguity characters. MiFish informs the alignment, conserved-anchor and lineage-complementarity approach (Miya et al., 2015); its fish 12S specificity does not transfer automatically to coral 16S.
+The retained pools contained 40 F, 13 Refertina R and 32 Vacatina R candidates, comprising 79 unique oligos. All underwent raw-sequence site scans in both orientations, followed by paired orientation, spacing and terminal checks. Conservative and relaxed background screens were compared; the original low-background gate did not yield substantial Refertina compensation. The selected exploratory gate was ≤150 strict WC, ≤150 strict GT and ≤1,200 WC3 background records per pair; passing this gate does not imply negligible cross-amplification. Within a loss of at most two species from the best union coverage, exact matches were prioritized, followed by coverage and coverage of the weaker suborder. This finite heuristic search does not establish a global optimum.
 
-Primer3 calculations used 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP, comparing 50 nM per concrete variant with 200 nM total per direction (Untergasser et al., 2012). At 200 nM total, an eightfold oligo has 25 nM per variant. All concrete variants and within-pair homo/hetero interactions were checked. Maximum structure Tm was required to remain below 55°C and the difference between F/R duplex-Tm interval midpoints below 5°C. The final three positions must include a definite G/C base; candidates capable of forming five-base homopolymers were excluded. Terminal triplets were not an absolute exclusion criterion. Maximum predicted structure Tm ranges from 42.9 to 52.5°C. Adapter-bearing oligos and cross-window multiplex interactions were not assessed.
+### Thermodynamics and mixtures
 
-### Coverage, background and verification
+Primer3 used 50 mM monovalent salt, 1.5 mM Mg²⁺ and 0.6 mM dNTP (Untergasser et al., 2012). Two scenarios were checked: 50 nM per concrete variant, and 200 nM total shared F with 100 nM total for each R. With twofold degeneracy for all three D oligos, the latter gives 100 nM per F variant and 50 nM per R variant. All expanded sequences were checked for hairpins, self-dimers and cross-dimers, including R–R interactions. Required limits were maximum structure Tm <55°C, F-to-either-R duplex-Tm midpoint difference ≤5°C and minimum duplex Tm ≥45°C. Maximum predicted structure Tm is 44.46°C for both M formulations. The final three positions must include a definite G/C base, and potential five-base homopolymers were excluded. Adapter-bearing full-length oligos were not evaluated.
 
-The frozen background contains 1,938 cnidarian records collected from stratified Octocorallia, Antipatharia, Zoantharia, Corallimorpharia, Actiniaria and Hydrozoa searches, plus 7,207 echinoderm records. Query caps were applied; this is neither exhaustive cnidarian sampling nor systematic coverage of bacteria, symbiotic algae or all marine biota.
+### Coverage, background and independent verification
 
-Coverage allows at most two mismatches per primer, with IUPAC-compatible final three bases. Exact matching requires zero mismatches at both ends. Raw-sequence scans examine both orientations, target products of 70–500 bp with at least 20 internal bases, and background internal distances of 0–1,000 bp. Strict WC and GT models retain the terminal constraint; GT permits G–T pairing computationally. WC3, GT2 and WC4 are relaxed sensitivity screens, not predictions of laboratory amplification probabilities.
+Coverage allows ≤2 mismatches per primer with IUPAC-compatible final three bases. Exact matching requires zero mismatches at both ends. Both sequence orientations are scanned; target products must be 70–500 bp with ≥20 internal bases, and background internal distances may be 0–1,000 bp. WC uses Watson–Crick compatibility; GT computationally permits G–T pairing. WC3, GT2 and WC4 are relaxed sensitivity screens, not laboratory detection probabilities.
 
-Evaluability is based on sequence span and unambiguous information at homologous windows; internal indels alone are not treated as missing data. Each window has 304 evaluable species, 305 are evaluable at either window, and 303 at both. *Heterocyathus aequicostatus* and *Cycloseris distorta* lack sufficient window information and are not counted as missed detections.
+The frozen background contains 9,145 records: 1,938 stratified cnidarian and 7,207 echinoderm references. Cnidarian queries were capped; bacteria, symbiotic algae and all marine biota are not systematically represented. M has 304 evaluable species and three unknowns. At least one of S/M is evaluable for 305 species. Missing binding-window information is not counted as failure.
 
-Independent C++ exhaustive paired scans and Python bit-parallel scans agree on all 24 target-coverage, exact-match and strict-background set comparisons. Design and evaluation reuse the reference panel; no held-out or wet-laboratory validation has been performed.
+The six released pairs and eight additional mixture pairs (F/F, R/R, V/V and R/V for each M formulation) were independently scanned by exhaustive C++ and bit-parallel Python implementations. All 84 target and strict-background coverage/exact set comparisons agree. The eight additional pairs have no target or strict WC/GT background hits. Mixture metrics are computational compatibility unions plus interaction checks; they do not establish absence of competition or amplification bias under a common PCR protocol. Cross-window S/M combinations describe separate assays followed by taxonomic aggregation.
 
 ## Results
 
-| Pair | Evaluable species | Covered | Exact paired matches | Strict WC / GT | Relaxed WC3 / GT2 / WC4 |
+| Pair | Evaluable | Covered | Exact | Strict WC/GT | Relaxed WC3/GT2/WC4 |
 |---|---:|---:|---:|---:|---:|
 | MiScle-S | 304 | 153 (50.33%) | 64 (21.05%) | 0 / 0 | 0 / 0 / 0 |
 | MiScle-SD | 304 | 155 (50.99%) | 125 (41.12%) | 0 / 0 | 6 / 0 / 211 |
-| MiScle-M | 304 | 124 (40.79%) | 1 (0.33%) | 0 / 0 | 0 / 0 / 4 |
-| MiScle-MD | 304 | 124 (40.79%) | 81 (26.64%) | 0 / 0 | 4 / 4 / 5 |
-| Ordinary two-assay union | 305 | 277 (90.82%) | 65 (21.31%) | 0 / 0 | See individual pairs |
-| D two-assay union | 305 | 279 (91.48%) | 206 (67.54%) | 0 / 0 | See individual pairs |
+| MiScle-MR | 304 | 160 (52.63%) | 78 (25.66%) | 103 / 111 | 542 / 111 / 1152 |
+| MiScle-MV | 304 | 122 (40.13%) | 0 (0.00%) | 0 / 0 | 0 / 0 / 0 |
+| MiScle-MRD | 304 | 160 (52.63%) | 93 (30.59%) | 103 / 111 | 645 / 111 / 1168 |
+| MiScle-MVD | 304 | 124 (40.79%) | 5 (1.64%) | 0 / 0 | 0 / 0 / 4 |
 
-On the same 303-species common panel, ordinary and D unions cover 277 and 279 species and exactly match 65 and 206, respectively. The improvement is therefore not a denominator effect. The 211 WC4 background hits of MiScle-SD indicate residual cross-amplification sensitivity despite zero strict hits.
+### M combinations versus original assays
 
-The D union misses 26 evaluable species: 14 source-labelled Caryophylliidae, all four Micrabaciidae representatives, two Anthemiphylliidae, two Acroporidae and one each from Agariciidae, Dendrophylliidae, Montastraeidae and Pocilloporidae. These candidates do not yet provide complete Scleractinia coverage.
+| Scheme | Evaluable | Covered | Exact | Strict WC/GT background |
+|---|---:|---:|---:|---:|
+| Original M | 304 | 124 (40.79%) | 1 (0.33%) | 0 / 0 |
+| MR+MV | 304 | 282 (92.76%) | 78 (25.66%) | 103 / 111 |
+| Original MD | 304 | 124 (40.79%) | 81 (26.64%) | 0 / 0 |
+| MRD+MVD | 304 | 284 (93.42%) | 98 (32.24%) | 103 / 111 |
 
-[Per-species results](by_species.csv) · [Family/genus results](by_taxon.csv) · [Combined assays](two_pair_comparison.csv) · [Missed species](missed_species.csv) · [Unevaluable species](unknown_species.csv)
+The M-D union covers 145/148 Refertina (97.97%) and 137/154 Vacatina (88.96%), with 85/148 (57.43%) and 12/154 (7.79%) exact matches, respectively. Both unassigned species are covered, with one exact match. Twenty evaluable species remain missed at M-D. Across windows, SD+MRD+MVD covers 285/305 (93.44%) with 160/305 (52.46%) exact matches; the original SD+MD gave 279/305 (91.48%) and 206/305 (67.54%).
 
-## Barcode resolution and base matching
+All 103 WC background hits are Actiniaria (70) and Corallimorpharia (33); GT gives 72 and 39. These represent 1.13% and 1.21% of all background records, or 5.31% and 5.73% of the cnidarian subset. The Refertina reverse primer introduces these hits. MRD has 645 WC3 and 1,168 WC4 hits, requiring close non-target mixed-template challenges.
 
-Among covered reference species, only 25/153, 27/155, 26/124 and 26/124 have an internal barcode not shared identically with another covered species for MiScle-S, SD, M and MD, respectively. Cross-genus sharing also occurs. These are observations within the frozen library, not identification-success estimates. Classify each window separately and aggregate taxonomic detections; unlinked eDNA amplicons cannot be treated as phased multilocus haplotypes.
+[Per species](by_species.csv) · [Per suborder](by_suborder.csv) · [Combined suborders](combination_by_suborder.csv) · [Combinations](two_pair_comparison.csv) · [Background hit list](background_hits.csv) · [M-D misses](missed_species.csv) · [Original results](results/baseline/comparison.csv)
 
-Both ends below are shown in primer synthesis orientation, 5′→3′; R templates are reverse-complemented. E denotes exact paired matching, C predicted coverage with allowed mismatches, – no predicted hit and ? insufficient reference information. Covered rows use independently verified raw-sequence templates; other rows show homologous reference columns. Open individual SVG files to inspect all species.
+## Base matching and barcode resolution
 
-[Resolution](barcode_resolution.csv) · [Shared barcodes](shared_barcodes.csv) · [Verified templates and products](verified_templates.csv)
+Figures group references by suborder and source family. Both ends are shown 5′→3′, with R templates reverse-complemented. E denotes exact paired matching, C allowed-mismatch coverage, – no predicted hit and ? insufficient reference information. Blue indicates compatibility, orange mismatch and grey gap/unknown; the last three bases are boxed. Covered rows use independently verified raw binding templates; other rows show homologous reference columns. R/V names indicate design emphasis rather than exclusive amplification of that suborder.
 
-![Ordinary window S](figures/base_matching_MiScle-S.svg)
+[Base data](base_matching.csv) · [Verified templates and products](verified_templates.csv) · [Barcode resolution](barcode_resolution.csv) · [Shared barcodes](shared_barcodes.csv)
 
-![Degenerate window S](figures/base_matching_MiScle-SD.svg)
+For MR/MRD, 48/160 covered species have an internal barcode not shared identically with another covered species; the counts are 24/122 for MV and 26/124 for MVD. Shared barcodes, including cross-genus sharing, remain. These are observations within the frozen library, not identification-success estimates. Improving binding compatibility does not automatically improve internal-barcode species resolution.
 
-![Ordinary window M](figures/base_matching_MiScle-M.svg)
+![MiScle-S](figures/base_matching_MiScle-S.svg)
 
-![Degenerate window M](figures/base_matching_MiScle-MD.svg)
+![MiScle-SD](figures/base_matching_MiScle-SD.svg)
+
+![MiScle-MR](figures/base_matching_MiScle-MR.svg)
+
+![MiScle-MV](figures/base_matching_MiScle-MV.svg)
+
+![MiScle-MRD](figures/base_matching_MiScle-MRD.svg)
+
+![MiScle-MVD](figures/base_matching_MiScle-MVD.svg)
 
 ## Reproduction and files
 
-- Run `python3 scripts/check_release.py` for release consistency checks.
-- Run `python3 scripts/verify.py` to independently rescan frozen target and background sequences using Python's standard library; no network access is needed.
-- [Verification summary](verification.json) · [Individual comparisons](independent_checks.csv) · [Paper-accession audit](data/paper_accession_audit.csv) · [Reference panel](data/panel.csv) · [Input manifest](manifest.json).
-- Other design scripts retain workspace-specific paths and are supplied as analysis provenance, rather than a portable end-to-end design pipeline. C++ scan source is also included.
-- `SHA256SUMS` records the final release files.
+- Run `python3 scripts/check_release.py` to check names, sequences, coordinates, shared F, degeneracy, figures and results.
+- Run `python3 scripts/verify.py` for independent rescanning against frozen inputs using Python's standard library, without network access.
+- [Verification summary](verification.json) · [84 comparisons](independent_checks.csv) · [Search and tradeoffs](results/suborder_search/README.md) · [Input manifest](manifest.json) · [Accession audit](data/paper_accession_audit.csv).
+- New generation and selection scripts are documented in the search notes. Other early design scripts retain workspace-specific paths as provenance. Final release hashes are recorded in `SHA256SUMS`.
 
-Priority experimental comparisons are parallel ordinary/D assays using tissue DNA from major reef lineages and missed deep-water groups, followed by mixed-template controls containing close non-targets and real eDNA samples. The present evidence favours testing D candidates, while species-level identification will require comparison with longer 16S regions or additional markers.
+Priority experiments compare original M/MD and the R/V formulations on tissue DNA and balanced/unbalanced mixtures containing sea anemones and corallimorpharians. Further improvement of Vacatina exact matching should compare complete suborder-specific F/R pairs with the shared-F constraint relaxed, rather than simply adding more R ambiguity.
 
 ## References
 
@@ -105,6 +121,8 @@ Priority experimental comparisons are parallel ordinary/D assays using tissue DN
 3. McCartin, L., Saso, E., Vohsen, S. A., et al. (2024). Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. *PeerJ*, 12, e18607. https://doi.org/10.7717/peerj.18607
 4. Katoh, K., & Standley, D. M. (2013). MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution*, 30, 772–780. https://doi.org/10.1093/molbev/mst010
 5. Untergasser, A., Cutcutache, I., Koressaar, T., et al. (2012). Primer3—new capabilities and interfaces. *Nucleic Acids Research*, 40, e115. https://doi.org/10.1093/nar/gks596
+6. Vaga, C. F., Quattrini, A. M., Galvão de Lossio e Seiblitz, I., et al. (2025). A global coral phylogeny reveals resilience and vulnerability through deep time. *Nature*, 648, 377–382. https://doi.org/10.1038/s41586-025-09615-6
+7. World List of Scleractinia. [Taxonomic classification](https://www.marinespecies.org/scleractinia/aphia.php?p=stats). Accessed 2026-10-30.
 
 ## Copyright
 

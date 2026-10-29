@@ -1,0 +1,340 @@
+[
+  {
+    "region": "S",
+    "F": "TTTGATAAGTGGGACAGTTTGG",
+    "R": "TTAACGGGTCACTTAAACCC",
+    "F_start": 1696,
+    "F_end": 1717,
+    "R_start": 1826,
+    "R_end": 1845,
+    "reference_span": 150,
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 56.532943171742204,
+        "F_tm_max": 56.532943171742204,
+        "R_tm_min": 55.287694807373725,
+        "R_tm_max": 55.287694807373725,
+        "structure_max": 52.51776306225753
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 58.338798939865455,
+        "F_tm_max": 58.338798939865455,
+        "R_tm_min": 57.25166045858293,
+        "R_tm_max": 57.25166045858293,
+        "structure_max": 52.51776306225753
+      }
+    ],
+    "covered": 153,
+    "exact": 64,
+    "strict_WC": 0,
+    "WC3": 0,
+    "strict_GT": 0,
+    "GT2": 0,
+    "name": "MiScle-S",
+    "degeneracy_F": 1,
+    "degeneracy_R": 1,
+    "background_gate": true,
+    "trial_id": "S"
+  },
+  {
+    "region": "S",
+    "F": "YTKGATAAGTGRGACAGTTTGG",
+    "R": "YYAACGGGTCACTTWAACCC",
+    "F_start": 1696,
+    "F_end": 1717,
+    "R_start": 1826,
+    "R_end": 1845,
+    "reference_span": 150,
+    "degeneracy_F": 8,
+    "degeneracy_R": 8,
+    "pred_covered": 155,
+    "pred_exact": 125,
+    "pred_evaluable": 166,
+    "score": 223.9183673469388,
+    "strict_WC": 0,
+    "WC3": 6,
+    "WC4": 211,
+    "strict_GT": 0,
+    "GT2": 0,
+    "name": "MiScle-SD",
+    "thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 54.33090029268112,
+        "F_tm_max": 58.652783799843064,
+        "R_tm_min": 55.287694807373725,
+        "R_tm_max": 58.75883453342095,
+        "structure_max": 52.51776306225753
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 53.447238226693855,
+        "F_tm_max": 57.757459726986156,
+        "R_tm_min": 54.31444165466627,
+        "R_tm_max": 57.787830346751434,
+        "structure_max": 52.51776306225753
+      }
+    ],
+    "background_gate": true,
+    "source_candidate": "S-exact",
+    "trial_id": "SD"
+  },
+  {
+    "name": "MiScle-MR",
+    "region": "M",
+    "intended_suborder": "Refertina",
+    "F": "AAGTCCCCATGGAACTTTAC",
+    "R": "CTTAAGCCCGCCTTCGTTAC",
+    "F_start": 1561,
+    "F_end": 1580,
+    "R_start": 1741,
+    "R_end": 1760,
+    "reference_span": 200,
+    "degeneracy_F": 1,
+    "degeneracy_R": 1,
+    "mixture_thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm": [
+          54.92277697113843,
+          54.92277697113843
+        ],
+        "RR_tm": [
+          58.99540528391634,
+          58.99540528391634
+        ],
+        "RV_tm": [
+          51.351999594540416,
+          51.351999594540416
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.072628312777908
+      },
+      {
+        "scenario": "200_F_100_each_R",
+        "F_tm": [
+          56.91395367601757,
+          56.91395367601757
+        ],
+        "RR_tm": [
+          59.95377704831901,
+          59.95377704831901
+        ],
+        "RV_tm": [
+          52.29404043782904,
+          52.29404043782904
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.619913238188531
+      }
+    ]
+  },
+  {
+    "name": "MiScle-MV",
+    "region": "M",
+    "intended_suborder": "Vacatina",
+    "F": "AAGTCCCCATGGAACTTTAC",
+    "R": "TCATAGTTCGTTTTCGTTAC",
+    "F_start": 1561,
+    "F_end": 1580,
+    "R_start": 1741,
+    "R_end": 1760,
+    "reference_span": 200,
+    "degeneracy_F": 1,
+    "degeneracy_R": 1,
+    "mixture_thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm": [
+          54.92277697113843,
+          54.92277697113843
+        ],
+        "RR_tm": [
+          58.99540528391634,
+          58.99540528391634
+        ],
+        "RV_tm": [
+          51.351999594540416,
+          51.351999594540416
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.072628312777908
+      },
+      {
+        "scenario": "200_F_100_each_R",
+        "F_tm": [
+          56.91395367601757,
+          56.91395367601757
+        ],
+        "RR_tm": [
+          59.95377704831901,
+          59.95377704831901
+        ],
+        "RV_tm": [
+          52.29404043782904,
+          52.29404043782904
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.619913238188531
+      }
+    ]
+  },
+  {
+    "name": "MiScle-MRD",
+    "region": "M",
+    "intended_suborder": "Refertina",
+    "F": "AAGTCCCYATGGAACTTTAC",
+    "R": "CTTAAGYCCGCCTTCGTTAC",
+    "F_start": 1561,
+    "F_end": 1580,
+    "R_start": 1741,
+    "R_end": 1760,
+    "reference_span": 200,
+    "degeneracy_F": 2,
+    "degeneracy_R": 2,
+    "mixture_thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm": [
+          51.85120186157502,
+          54.92277697113843
+        ],
+        "RR_tm": [
+          56.282195828571616,
+          58.99540528391634
+        ],
+        "RV_tm": [
+          49.90984399038166,
+          52.40796225262676
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.251811139887252
+      },
+      {
+        "scenario": "200_F_100_each_R",
+        "F_tm": [
+          52.83513352987893,
+          55.915353195181694
+        ],
+        "RR_tm": [
+          56.282195828571616,
+          58.99540528391634
+        ],
+        "RV_tm": [
+          49.90984399038166,
+          52.40796225262676
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 3.263557193713666
+      }
+    ]
+  },
+  {
+    "name": "MiScle-MVD",
+    "region": "M",
+    "intended_suborder": "Vacatina",
+    "F": "AAGTCCCYATGGAACTTTAC",
+    "R": "CCATAGTTCRTTTTCGTTAC",
+    "F_start": 1561,
+    "F_end": 1580,
+    "R_start": 1741,
+    "R_end": 1760,
+    "reference_span": 200,
+    "degeneracy_F": 2,
+    "degeneracy_R": 2,
+    "mixture_thermal": [
+      {
+        "scenario": "50_per_variant",
+        "F_tm": [
+          51.85120186157502,
+          54.92277697113843
+        ],
+        "RR_tm": [
+          56.282195828571616,
+          58.99540528391634
+        ],
+        "RV_tm": [
+          49.90984399038166,
+          52.40796225262676
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 4.251811139887252
+      },
+      {
+        "scenario": "200_F_100_each_R",
+        "F_tm": [
+          52.83513352987893,
+          55.915353195181694
+        ],
+        "RR_tm": [
+          56.282195828571616,
+          58.99540528391634
+        ],
+        "RV_tm": [
+          49.90984399038166,
+          52.40796225262676
+        ],
+        "max_structure_tm": 44.46347807152864,
+        "max_F_R_midpoint_delta": 3.263557193713666
+      }
+    ]
+  },
+  {
+    "name": "mixture_ordinary_FF",
+    "F": "AAGTCCCCATGGAACTTTAC",
+    "R": "AAGTCCCCATGGAACTTTAC",
+    "region": "M",
+    "reference_span": 200
+  },
+  {
+    "name": "mixture_ordinary_RRRR",
+    "F": "CTTAAGCCCGCCTTCGTTAC",
+    "R": "CTTAAGCCCGCCTTCGTTAC",
+    "region": "M",
+    "reference_span": 200
+  },
+  {
+    "name": "mixture_ordinary_RVRV",
+    "F": "TCATAGTTCGTTTTCGTTAC",
+    "R": "TCATAGTTCGTTTTCGTTAC",
+    "region": "M",
+    "reference_span": 200
+  },
+  {
+    "name": "mixture_ordinary_RRRV",
+    "F": "CTTAAGCCCGCCTTCGTTAC",
+    "R": "TCATAGTTCGTTTTCGTTAC",
+    "region": "M",
+    "reference_span": 200
+  },
+  {
+    "name": "mixture_D_FF",
+    "F": "AAGTCCCYATGGAACTTTAC",
+    "R": "AAGTCCCYATGGAACTTTAC",
+    "region": "M",
+    "reference_span": 200
+  },
+  {
+    "name": "mixture_D_RRRR",
+    "F": "CTTAAGYCCGCCTTCGTTAC",
+    "R": "CTTAAGYCCGCCTTCGTTAC",
+    "region": "M",
+    "reference_span": 200
+  },
+  {
+    "name": "mixture_D_RVRV",
+    "F": "CCATAGTTCRTTTTCGTTAC",
+    "R": "CCATAGTTCRTTTTCGTTAC",
+    "region": "M",
+    "reference_span": 200
+  },
+  {
+    "name": "mixture_D_RRRV",
+    "F": "CTTAAGYCCGCCTTCGTTAC",
+    "R": "CCATAGTTCRTTTTCGTTAC",
+    "region": "M",
+    "reference_span": 200
+  }
+]

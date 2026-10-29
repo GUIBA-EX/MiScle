@@ -1,0 +1,98 @@
+[
+  {
+    "clade": "Octocorallia",
+    "kind": "genomes",
+    "query": "Octocorallia[Organism] AND mitochondrion[Filter] AND 10000:40000[SLEN]",
+    "count": 567,
+    "retrieved": 100,
+    "cap": 100
+  },
+  {
+    "clade": "Octocorallia",
+    "kind": "16S",
+    "query": "Octocorallia[Organism] AND (16S[Title] OR rrnL[Title]) AND 150:4000[SLEN]",
+    "count": 1607,
+    "retrieved": 400,
+    "cap": 400
+  },
+  {
+    "clade": "Antipatharia",
+    "kind": "genomes",
+    "query": "Antipatharia[Organism] AND mitochondrion[Filter] AND 10000:40000[SLEN]",
+    "count": 70,
+    "retrieved": 70,
+    "cap": 100
+  },
+  {
+    "clade": "Antipatharia",
+    "kind": "16S",
+    "query": "Antipatharia[Organism] AND (16S[Title] OR rrnL[Title]) AND 150:4000[SLEN]",
+    "count": 25,
+    "retrieved": 25,
+    "cap": 400
+  },
+  {
+    "clade": "Zoantharia",
+    "kind": "genomes",
+    "query": "Zoantharia[Organism] AND mitochondrion[Filter] AND 10000:40000[SLEN]",
+    "count": 95,
+    "retrieved": 95,
+    "cap": 100
+  },
+  {
+    "clade": "Zoantharia",
+    "kind": "16S",
+    "query": "Zoantharia[Organism] AND (16S[Title] OR rrnL[Title]) AND 150:4000[SLEN]",
+    "count": 1269,
+    "retrieved": 400,
+    "cap": 400
+  },
+  {
+    "clade": "Corallimorpharia",
+    "kind": "genomes",
+    "query": "Corallimorpharia[Organism] AND mitochondrion[Filter] AND 10000:40000[SLEN]",
+    "count": 30,
+    "retrieved": 30,
+    "cap": 100
+  },
+  {
+    "clade": "Corallimorpharia",
+    "kind": "16S",
+    "query": "Corallimorpharia[Organism] AND (16S[Title] OR rrnL[Title]) AND 150:4000[SLEN]",
+    "count": 13,
+    "retrieved": 13,
+    "cap": 400
+  },
+  {
+    "clade": "Actiniaria",
+    "kind": "genomes",
+    "query": "Actiniaria[Organism] AND mitochondrion[Filter] AND 10000:40000[SLEN]",
+    "count": 113,
+    "retrieved": 100,
+    "cap": 100
+  },
+  {
+    "clade": "Actiniaria",
+    "kind": "16S",
+    "query": "Actiniaria[Organism] AND (16S[Title] OR rrnL[Title]) AND 150:4000[SLEN]",
+    "count": 546,
+    "retrieved": 400,
+    "cap": 400
+  },
+  {
+    "clade": "Hydrozoa",
+    "kind": "genomes",
+    "query": "Hydrozoa[Organism] AND mitochondrion[Filter] AND 10000:40000[SLEN]",
+    "count": 321,
+    "retrieved": 100,
+    "cap": 100
+  },
+  {
+    "clade": "Hydrozoa",
+    "kind": "16S",
+    "query": "Hydrozoa[Organism] AND (16S[Title] OR rrnL[Title]) AND 150:4000[SLEN]",
+    "count": 5204,
+    "retrieved": 400,
+    "cap": 400
+  }
+]

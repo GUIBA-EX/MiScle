@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MiScle 石珊瑚16S引物</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="report.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">MiScle 石珊瑚16S引物</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#miscle" id="toc-miscle">MiScle</a>
+<ul>
+<li><a href="#结论" id="toc-结论">结论</a></li>
+<li><a href="#引物序列" id="toc-引物序列">引物序列</a></li>
+<li><a href="#参考数据与设计方法"
+id="toc-参考数据与设计方法">参考数据与设计方法</a></li>
+<li><a href="#预测结果" id="toc-预测结果">预测结果</a></li>
+<li><a href="#条码分辨率与碱基匹配"
+id="toc-条码分辨率与碱基匹配">条码分辨率与碱基匹配</a></li>
+<li><a href="#复核与文件" id="toc-复核与文件">复核与文件</a></li>
+<li><a href="#参考文献" id="toc-参考文献">参考文献</a></li>
+<li><a href="#著作权" id="toc-著作权">著作权</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="miscle">MiScle</h1>
+<p><a href="README.md">English</a></p>
+<p><strong>MiScle, a set of PCR primer candidates for metabarcoding
+environmental DNA from scleractinian corals</strong></p>
+<h2 id="结论">结论</h2>
+<p>本轮得到两个互补窗口，各保留一对普通引物和一对同坐标简并D引物。普通方案参考MiFish的比对、保守锚点与谱系补偿思路；D方案参考Anth-28S-eDNA，按目标模板中实际存在的变异加入少量简并。两者均为本项目新生成的计算候选，并非MiFish或Anth28S原始引物。</p>
+<p>在307个具名参考物种中，两窗口合计有305个物种可评价。普通两对分管检测的预测覆盖并集为277/305（90.82%），完全匹配并集为65/305（21.31%）；D两对分别为279/305（91.48%）和206/305（67.54%）。四对引物在9,145条背景参考中的严格WC和GT成对命中均为0。D的主要收益是提高完全匹配率。</p>
+<p>短片段存在较多共享条码，尚不能作为可靠的种级鉴定方案，也不能根据计算覆盖直接推断环境样品检出率。建议将两对D与对应普通引物作为平行实验候选。以下两对组合指标均指分别PCR后的检测并集；同管多重扩增尚未评价。</p>
+<h2 id="引物序列">引物序列</h2>
+<p>所有序列为靶向部分，按合成方向5′→3′书写，不含接头和标签。1/2表示参考同源窗口，不表示普遍的实际长度等级；D仅表示简并。</p>
+<table>
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 18%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>名称</th>
+<th>设计方案</th>
+<th>F，5′→3′</th>
+<th>R，5′→3′</th>
+<th style="text-align: right;">F/R简并度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MiScle-1</td>
+<td>普通</td>
+<td><code>TTTGATAAGTGGGACAGTTTGG</code></td>
+<td><code>TTAACGGGTCACTTAAACCC</code></td>
+<td style="text-align: right;">1 / 1</td>
+</tr>
+<tr>
+<td>MiScle-1D</td>
+<td>简并D</td>
+<td><code>YTKGATAAGTGRGACAGTTTGG</code></td>
+<td><code>YYAACGGGTCACTTWAACCC</code></td>
+<td style="text-align: right;">8 / 8</td>
+</tr>
+<tr>
+<td>MiScle-2</td>
+<td>普通</td>
+<td><code>AAGTCCCTATGGAGCTTTAC</code></td>
+<td><code>CCATAGTTCATTTTCGTTAC</code></td>
+<td style="text-align: right;">1 / 1</td>
+</tr>
+<tr>
+<td>MiScle-2D</td>
+<td>简并D</td>
+<td><code>AAGWCCCYATGGARCTTTAC</code></td>
+<td><code>YCATAGYTCRTTTTCGTTAC</code></td>
+<td style="text-align: right;">8 / 8</td>
+</tr>
+</tbody>
+</table>
+<p>Y=C/T，K=G/T，R=A/G，W=A/T。每条D引物包含8种具体序列；每对最多对应64种F×R组合。简并位点可出现在5′半段，未套用先前其他项目的“仅3′半段”限制。</p>
+<p><a href="primer_pairs.csv">序列表</a> · <a
+href="primers.fasta">FASTA</a> · <a
+href="selected.json">全部参数</a></p>
+<h2 id="参考数据与设计方法">参考数据与设计方法</h2>
+<h3 id="论文数据和目标范围">论文数据和目标范围</h3>
+<p>Hisata等（2025）研究的是石珊瑚12S系统，本设计使用其表1中能够提取16S的线粒体记录作为基础，并补充全部Scleractinia的公开数据，包括非造礁和深海类群。论文表1共核对110个accession，其中65条记录含可用16S，45条仅含其他标记或没有可提取的16S，未将它们当成16S扩增失败。</p>
+<p>在NCBI检索1974条记录后，结合论文accession，提取、审核并保留879条合格16S记录用于辅助检查；设计面板按来源taxid与具名双名记录去重，每个物种选一条代表，共307个物种标签、131个属、29个来源科级标签。包括Caryophylliidae、Flabellidae、Dendrophylliidae等类群。分类名称沿用来源注释，尚未完成全部同物异名和科级修订，因此科级数字不代表确认的现行有效科数。</p>
+<p>参考基因组为NC_003522.1，提取其注释的大亚基线粒体rRNA（16S）作为坐标参考；多序列比对使用MAFFT。窗口1坐标为F
+1696–1717、R 1826–1845，参考跨度150 bp；窗口2为F 1561–1580、R
+1741–1760，参考跨度200
+bp。普通与D的对应端点完全相同。不同谱系存在插入、缺失，覆盖参考中的预测产物分别为147–209
+bp和99–186 bp，均包含引物。</p>
+<figure>
+<img src="figures/reference_windows.svg" alt="参考窗口" />
+<figcaption aria-hidden="true">参考窗口</figcaption>
+</figure>
+<h3 id="普通与d的生成">普通与D的生成</h3>
+<p>先在多物种比对中寻找可评价度较高的保守锚点，比较参考跨度150–250、251–350和351–500
+bp的候选。首轮筛查8863个配对；针对第一对漏检物种补充5582个配对，寻找谱系互补的第二窗口。以物种覆盖为基础，同时考虑来源科级的匹配，防止单一常见类群的保守区挤占全部候选。随后将近缘非目标成对命中纳入筛选。</p>
+<p>普通候选来自相应目标谱系的保守共识、真实结合模板和有限的具体序列组合，均仅含A/C/G/T。D候选以实际同源列变异为依据，每条最多8种具体序列，并联合比较覆盖与完全匹配。每个窗口的普通候选独立按覆盖优先、完全匹配次之排序，而不是简单删除D序列中的简并字符。</p>
+<p>Primer3评估单价盐50 mM、Mg²⁺ 1.5 mM、dNTP 0.6 mM，比较每变体50
+nM和每方向总量200
+nM两种浓度情景。检查全部具体变体及其互作，要求最高结构Tm低于55°C、F/R双链Tm区间中点差不超过5°C。端部要求有确定的G/C位点，并排除可能形成5连同聚物的候选；不把末端三连作为绝对排除条件。四对最高预测结构Tm约为42.9–52.5°C；加尾全长和跨窗口同管混合物尚未评估。</p>
+<h3 id="背景与评价口径">背景与评价口径</h3>
+<p>背景包括1,938条分层收集的近缘刺胞动物16S记录，以及7,207条冻结棘皮动物参考。近缘背景按Octocorallia、Antipatharia、Zoantharia、Corallimorpharia、Actiniaria及Hydrozoa检索；各层设置记录数上限，并非数据库穷尽。该背景未系统覆盖细菌、共生藻和全部海洋生物。</p>
+<p>覆盖允许每条引物最多2个错配，要求各自末端3
+nt按IUPAC兼容；完全匹配要求两端均无错配。原始序列扫描同时检查两种方向，目标成对产物为70–500
+bp、内部长度至少20 bp。背景扫描允许内部距离0–1000
+bp。严格WC和GT保留末端约束；WC3、GT2和WC4为更宽松的敏感性检查。GT是允许G–T配对的计算模型，不能直接等同于PCR结果。</p>
+<p>可评价集合依据比对中两窗口是否被序列跨越及是否含模糊碱基确定；内部真实插入、缺失不直接当作缺少数据。每个窗口304个物种可评价，二窗口至少一个可评价的并集为305，两个窗口均可评价的共同集合为303。Heterocyathus
+aequicostatus和Cycloseris
+distorta在本面板中缺少足够窗口信息，未计为漏检。</p>
+<h2 id="预测结果">预测结果</h2>
+<table>
+<colgroup>
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th>方案</th>
+<th style="text-align: right;">可评价物种</th>
+<th style="text-align: right;">覆盖</th>
+<th style="text-align: right;">完全匹配</th>
+<th style="text-align: right;">严格WC / GT</th>
+<th style="text-align: right;">宽松WC3 / GT2 / WC4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MiScle-1</td>
+<td style="text-align: right;">304</td>
+<td style="text-align: right;">153（50.33%）</td>
+<td style="text-align: right;">64（21.05%）</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0 / 0</td>
+</tr>
+<tr>
+<td>MiScle-1D</td>
+<td style="text-align: right;">304</td>
+<td style="text-align: right;">155（50.99%）</td>
+<td style="text-align: right;">125（41.12%）</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">6 / 0 / 211</td>
+</tr>
+<tr>
+<td>MiScle-2</td>
+<td style="text-align: right;">304</td>
+<td style="text-align: right;">124（40.79%）</td>
+<td style="text-align: right;">1（0.33%）</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">0 / 0 / 4</td>
+</tr>
+<tr>
+<td>MiScle-2D</td>
+<td style="text-align: right;">304</td>
+<td style="text-align: right;">124（40.79%）</td>
+<td style="text-align: right;">81（26.64%）</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">4 / 4 / 5</td>
+</tr>
+<tr>
+<td>普通两对分管并集</td>
+<td style="text-align: right;">305</td>
+<td style="text-align: right;">277（90.82%）</td>
+<td style="text-align: right;">65（21.31%）</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">逐对见上</td>
+</tr>
+<tr>
+<td>D两对分管并集</td>
+<td style="text-align: right;">305</td>
+<td style="text-align: right;">279（91.48%）</td>
+<td style="text-align: right;">206（67.54%）</td>
+<td style="text-align: right;">0 / 0</td>
+<td style="text-align: right;">逐对见上</td>
+</tr>
+</tbody>
+</table>
+<p>在同一303物种共同集合上，普通与D并集分别覆盖277和279个物种，完全匹配分别为65和206个。MiScle-1D在允许4个错配的宽松WC4模型下有211条背景命中，说明“严格模型为0”不能解释为绝无交叉扩增。</p>
+<p>D并集仍有26个可评价物种漏检，主要包括14个来源Caryophylliidae、全部4个Micrabaciidae代表、2个Anthemiphylliidae，以及其他少数物种。因此两对互补方案仍不能称为覆盖全部石珊瑚的通用引物。</p>
+<p><a href="by_species.csv">逐物种结果</a> · <a
+href="by_taxon.csv">逐科/属结果</a> · <a
+href="two_pair_comparison.csv">双对组合</a> · <a
+href="missed_species.csv">漏检物种</a> · <a
+href="unknown_species.csv">不可评价物种</a></p>
+<h2 id="条码分辨率与碱基匹配">条码分辨率与碱基匹配</h2>
+<p>只统计当前已覆盖参考中的内部条码，不含引物。MiScle-1、1D、2、2D分别有25/153、27/155、26/124和26/124个物种未与其他已覆盖物种共享完全相同的内部条码；跨属共享也存在。该指标是当前参考库中的观察，不是未知样品的鉴定成功率。两窗口的ASV应分别分类，再汇总分类结果；不能把它们当成已连接的多位点单倍型。</p>
+<p><a href="barcode_resolution.csv">分辨率统计</a> · <a
+href="shared_barcodes.csv">共享条码</a> · <a
+href="verified_templates.csv">实际结合模板与产物</a></p>
+<p>下图两端均按引物合成方向5′→3′展示，R端模板已取反向互补。E表示两端完全匹配，C表示允许错配下的预测覆盖，–表示未预测扩增，?表示参考信息不足。已覆盖行显示独立复核的原始序列结合模板，其他行显示参考同源列。可单独打开<a
+href="figures/base_matching_MiScle-1.svg">普通1</a>、<a
+href="figures/base_matching_MiScle-1D.svg">简并1</a>、<a
+href="figures/base_matching_MiScle-2.svg">普通2</a>、<a
+href="figures/base_matching_MiScle-2D.svg">简并2</a>查看全部物种。</p>
+<figure>
+<img src="figures/base_matching_MiScle-1.svg" alt="普通1碱基匹配" />
+<figcaption aria-hidden="true">普通1碱基匹配</figcaption>
+</figure>
+<figure>
+<img src="figures/base_matching_MiScle-1D.svg" alt="简并1碱基匹配" />
+<figcaption aria-hidden="true">简并1碱基匹配</figcaption>
+</figure>
+<figure>
+<img src="figures/base_matching_MiScle-2.svg" alt="普通2碱基匹配" />
+<figcaption aria-hidden="true">普通2碱基匹配</figcaption>
+</figure>
+<figure>
+<img src="figures/base_matching_MiScle-2D.svg" alt="简并2碱基匹配" />
+<figcaption aria-hidden="true">简并2碱基匹配</figcaption>
+</figure>
+<h2 id="复核与文件">复核与文件</h2>
+<p>四对候选均完成独立C++穷举扫描与Python位并行扫描，目标覆盖/完全匹配及严格WC/GT背景集合共24项集合比较，差异为0。设计与评价复用了参考库，未进行留出样本或湿实验验证。</p>
+<ul>
+<li><a href="verification.json">复核结果</a> · <a
+href="independent_checks.csv">逐项复核</a></li>
+<li><a href="data/paper_accession_audit.csv">论文accession审核</a> · <a
+href="data/panel.csv">物种面板</a> · <a
+href="manifest.json">输入与参数</a></li>
+<li><a href="scripts/verify.py">Python原始序列复核脚本</a>：在本目录执行
+<code>python3 scripts/verify.py</code>，无需联网。</li>
+<li><a
+href="scripts/check_release.py">发布一致性检查</a>：<code>python3 scripts/check_release.py</code>。</li>
+<li>其他设计脚本保留了本次工作区路径，作为分析过程记录；C++扫描源代码与输入数据一并提供。</li>
+</ul>
+<p>下一步宜用覆盖主要造礁类群和上述漏检深海类群的组织DNA，平行测试普通与D，再进行含近缘非目标的混合样本及真实eDNA实验。当前计算证据支持优先测试D方案，分类分辨率仍需结合更长16S或其他标记进一步比较。</p>
+<h2 id="参考文献">参考文献</h2>
+<ol type="1">
+<li>Hisata, K., Nagata, T., Kanai, M., et al. (2025). An eDNA
+metabarcoding system for detecting scleractinian corals to the generic
+level along the Japanese coast. <em>Galaxea, Journal of Coral Reef
+Studies</em>, 27, 13–29. https://doi.org/10.3755/galaxea.G27D-5</li>
+<li>Miya, M., Sato, Y., Fukunaga, T., et al. (2015). MiFish, a set of
+universal PCR primers for metabarcoding environmental DNA from fishes:
+detection of more than 230 subtropical marine species. <em>Royal Society
+Open Science</em>, 2, 150088. https://doi.org/10.1098/rsos.150088</li>
+<li>McCartin, L., Saso, E., Vohsen, S. A., et al. (2024). Nuclear eDNA
+metabarcoding primers for anthozoan coral biodiversity assessment.
+<em>PeerJ</em>, 12, e18607. https://doi.org/10.7717/peerj.18607</li>
+<li>Katoh, K., &amp; Standley, D. M. (2013). MAFFT multiple sequence
+alignment software version 7: improvements in performance and usability.
+<em>Molecular Biology and Evolution</em>, 30, 772–780.
+https://doi.org/10.1093/molbev/mst010</li>
+<li>Untergasser, A., Cutcutache, I., Koressaar, T., et al. (2012).
+Primer3—new capabilities and interfaces. <em>Nucleic Acids
+Research</em>, 40, e115. https://doi.org/10.1093/nar/gks596</li>
+</ol>
+<h2 id="著作权">著作权</h2>
+<p>Copyright © 2026 Fei Xia (GUIBA-EX).
+保留所有权利。未经书面许可禁止转载和再分发受保护的原创材料。参考数据库记录保留原有权利状态，详见
+<a href="COPYRIGHT.md">著作权与使用声明</a>。</p>
+</body>
+</html>

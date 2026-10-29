@@ -1,0 +1,19 @@
+{
+  "methods": [
+    "C++ exhaustive full-sequence paired scan",
+    "Independent Python bit-parallel full-sequence paired scan"
+  ],
+  "target_pairs_checked": 13,
+  "strict_background_pairs_checked": 3,
+  "independent_set_checks": 38,
+  "disagreements": 0,
+  "target_product_bp": [
+    70,
+    500
+  ],
+  "target_min_internal_bp": 20,
+  "background_internal_bp": [
+    0,
+    1000
+  ]
+}

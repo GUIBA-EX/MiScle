@@ -1,0 +1,49 @@
+{
+  "source_paper": "10.3755/galaxea.G27D-5",
+  "original_marker_in_paper": "mitochondrial 12S; this design extracts mitochondrial 16S from annotated accessions",
+  "target": "Scleractinia including reef and non-reef/deep-water taxa",
+  "reference": "NC_003522.1",
+  "representative_species": 307,
+  "source_taxonomy": "GenBank source taxonomy; family labels and synonyms have not all been externally revised",
+  "full_genes_or_fragment_records": 879,
+  "background_records": 9145,
+  "background_cnidarian_records": 1938,
+  "background_echinoderm_records": 7207,
+  "design": {
+    "reference": "NC_003522.1",
+    "representatives": 307,
+    "pool": 3438,
+    "retained_oligos": 566,
+    "pairs": 8863,
+    "chemical_pass_retained": 114,
+    "site_min_evaluable": 130,
+    "max_degeneracy_per_oligo": 8,
+    "lengths": [
+      20,
+      22,
+      24
+    ],
+    "reference_start_step": 5
+  },
+  "complement_design": {
+    "reference": "NC_003522.1",
+    "representatives": 152,
+    "pool": 2320,
+    "retained_oligos": 419,
+    "pairs": 5582,
+    "chemical_pass_retained": 109,
+    "site_min_evaluable": 130,
+    "max_degeneracy_per_oligo": 8,
+    "lengths": [
+      20,
+      22,
+      24
+    ],
+    "reference_start_step": 5
+  },
+  "input_hashes": {
+    "work/scleractinia16s/curated/panel.fasta": "6764b59853b187c6918cc162f5709906ec889b4e17ecf0213209778219aef720",
+    "work/scleractinia16s/background.fasta": "ac5cc5b14f66883ec443a053be4571e679336c7c58528afb42695e30611f169b",
+    "work/scleractinia16s/aligned.fasta": "f3dc7066a84921e58a0e4a1f052c980846dd25f8f2c7f66f3dfffb4f26e6c246"
+  }
+}

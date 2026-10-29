@@ -1,0 +1,13 @@
+PASS MiScle-1 target WC 153 64
+PASS MiScle-1 background WC 0 0
+PASS MiScle-1 background GT 0 0
+PASS MiScle-2 target WC 124 1
+PASS MiScle-2 background WC 0 0
+PASS MiScle-2 background GT 0 0
+PASS MiScle-1D target WC 155 125
+PASS MiScle-1D background WC 0 0
+PASS MiScle-1D background GT 0 0
+PASS MiScle-2D target WC 124 81
+PASS MiScle-2D background WC 0 0
+PASS MiScle-2D background GT 0 0
+All target and strict background sets match the frozen C++ scan.

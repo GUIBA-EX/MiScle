@@ -1,0 +1,4 @@
+{
+  "target": "Scleractinia[Organism] AND (16S[Title] OR rrnL[Title] OR (mitochondrion[Filter] AND 10000:50000[SLEN])) NOT environmental samples[Organism]",
+  "background": "(Octocorallia[Organism] OR Antipatharia[Organism] OR Zoantharia[Organism] OR Corallimorpharia[Organism] OR Actiniaria[Organism] OR Hydrozoa[Organism]) AND (16S[Title] OR rrnL[Title] OR (mitochondrion[Filter] AND 10000:40000[SLEN])) NOT environmental samples[Organism]"
+}

@@ -14,14 +14,14 @@
 
 ## 引物序列
 
-所有序列为靶向部分，按合成方向5′→3′书写，不含接头和标签。1/2表示参考同源窗口，不表示普遍的实际长度等级；D仅表示简并。
+所有序列为靶向部分，按合成方向5′→3′书写，不含接头和标签。S/M表示参考同源窗口，实际产物长度随谱系而异；D仅表示简并。
 
 | 名称 | 设计方案 | F，5′→3′ | R，5′→3′ | F/R简并度 |
 |---|---|---|---|---:|
-| MiScle-1 | 普通 | `TTTGATAAGTGGGACAGTTTGG` | `TTAACGGGTCACTTAAACCC` | 1 / 1 |
-| MiScle-1D | 简并D | `YTKGATAAGTGRGACAGTTTGG` | `YYAACGGGTCACTTWAACCC` | 8 / 8 |
-| MiScle-2 | 普通 | `AAGTCCCTATGGAGCTTTAC` | `CCATAGTTCATTTTCGTTAC` | 1 / 1 |
-| MiScle-2D | 简并D | `AAGWCCCYATGGARCTTTAC` | `YCATAGYTCRTTTTCGTTAC` | 8 / 8 |
+| MiScle-S | 普通 | `TTTGATAAGTGGGACAGTTTGG` | `TTAACGGGTCACTTAAACCC` | 1 / 1 |
+| MiScle-SD | 简并D | `YTKGATAAGTGRGACAGTTTGG` | `YYAACGGGTCACTTWAACCC` | 8 / 8 |
+| MiScle-M | 普通 | `AAGTCCCTATGGAGCTTTAC` | `CCATAGTTCATTTTCGTTAC` | 1 / 1 |
+| MiScle-MD | 简并D | `AAGWCCCYATGGARCTTTAC` | `YCATAGYTCRTTTTCGTTAC` | 8 / 8 |
 
 Y=C/T，K=G/T，R=A/G，W=A/T。每条D引物包含8种具体序列；每对最多对应64种F×R组合。简并位点可出现在5′半段，未套用先前其他项目的“仅3′半段”限制。
 
@@ -35,7 +35,7 @@ Hisata等（2025）研究的是石珊瑚12S系统，本设计使用其表1中能
 
 在NCBI检索1974条记录后，结合论文accession，提取、审核并保留879条合格16S记录用于辅助检查；设计面板按来源taxid与具名双名记录去重，每个物种选一条代表，共307个物种标签、131个属、29个来源科级标签。包括Caryophylliidae、Flabellidae、Dendrophylliidae等类群。分类名称沿用来源注释，尚未完成全部同物异名和科级修订，因此科级数字不代表确认的现行有效科数。
 
-参考基因组为NC_003522.1，提取其注释的大亚基线粒体rRNA（16S）作为坐标参考；多序列比对使用MAFFT。窗口1坐标为F 1696–1717、R 1826–1845，参考跨度150 bp；窗口2为F 1561–1580、R 1741–1760，参考跨度200 bp。普通与D的对应端点完全相同。不同谱系存在插入、缺失，覆盖参考中的预测产物分别为147–209 bp和99–186 bp，均包含引物。
+参考基因组为NC_003522.1，提取其注释的大亚基线粒体rRNA（16S）作为坐标参考；多序列比对使用MAFFT。窗口S坐标为F 1696–1717、R 1826–1845，参考跨度150 bp；窗口M为F 1561–1580、R 1741–1760，参考跨度200 bp。普通与D的对应端点完全相同。不同谱系存在插入、缺失，覆盖参考中的预测产物分别为147–209 bp和99–186 bp，均包含引物。
 
 ![参考窗口](figures/reference_windows.svg)
 
@@ -59,14 +59,14 @@ Primer3评估单价盐50 mM、Mg²⁺ 1.5 mM、dNTP 0.6 mM，比较每变体50 n
 
 | 方案 | 可评价物种 | 覆盖 | 完全匹配 | 严格WC / GT | 宽松WC3 / GT2 / WC4 |
 |---|---:|---:|---:|---:|---:|
-| MiScle-1 | 304 | 153（50.33%） | 64（21.05%） | 0 / 0 | 0 / 0 / 0 |
-| MiScle-1D | 304 | 155（50.99%） | 125（41.12%） | 0 / 0 | 6 / 0 / 211 |
-| MiScle-2 | 304 | 124（40.79%） | 1（0.33%） | 0 / 0 | 0 / 0 / 4 |
-| MiScle-2D | 304 | 124（40.79%） | 81（26.64%） | 0 / 0 | 4 / 4 / 5 |
+| MiScle-S | 304 | 153（50.33%） | 64（21.05%） | 0 / 0 | 0 / 0 / 0 |
+| MiScle-SD | 304 | 155（50.99%） | 125（41.12%） | 0 / 0 | 6 / 0 / 211 |
+| MiScle-M | 304 | 124（40.79%） | 1（0.33%） | 0 / 0 | 0 / 0 / 4 |
+| MiScle-MD | 304 | 124（40.79%） | 81（26.64%） | 0 / 0 | 4 / 4 / 5 |
 | 普通两对分管并集 | 305 | 277（90.82%） | 65（21.31%） | 0 / 0 | 逐对见上 |
 | D两对分管并集 | 305 | 279（91.48%） | 206（67.54%） | 0 / 0 | 逐对见上 |
 
-在同一303物种共同集合上，普通与D并集分别覆盖277和279个物种，完全匹配分别为65和206个。MiScle-1D在允许4个错配的宽松WC4模型下有211条背景命中，说明“严格模型为0”不能解释为绝无交叉扩增。
+在同一303物种共同集合上，普通与D并集分别覆盖277和279个物种，完全匹配分别为65和206个。MiScle-SD在允许4个错配的宽松WC4模型下有211条背景命中，说明“严格模型为0”不能解释为绝无交叉扩增。
 
 D并集仍有26个可评价物种漏检，主要包括14个来源Caryophylliidae、全部4个Micrabaciidae代表、2个Anthemiphylliidae，以及其他少数物种。因此两对互补方案仍不能称为覆盖全部石珊瑚的通用引物。
 
@@ -74,19 +74,19 @@ D并集仍有26个可评价物种漏检，主要包括14个来源Caryophylliidae
 
 ## 条码分辨率与碱基匹配
 
-只统计当前已覆盖参考中的内部条码，不含引物。MiScle-1、1D、2、2D分别有25/153、27/155、26/124和26/124个物种未与其他已覆盖物种共享完全相同的内部条码；跨属共享也存在。该指标是当前参考库中的观察，不是未知样品的鉴定成功率。两窗口的ASV应分别分类，再汇总分类结果；不能把它们当成已连接的多位点单倍型。
+只统计当前已覆盖参考中的内部条码，不含引物。MiScle-S、SD、M、MD分别有25/153、27/155、26/124和26/124个物种未与其他已覆盖物种共享完全相同的内部条码；跨属共享也存在。该指标是当前参考库中的观察，不是未知样品的鉴定成功率。两窗口的ASV应分别分类，再汇总分类结果；不能把它们当成已连接的多位点单倍型。
 
 [分辨率统计](barcode_resolution.csv) · [共享条码](shared_barcodes.csv) · [实际结合模板与产物](verified_templates.csv)
 
-下图两端均按引物合成方向5′→3′展示，R端模板已取反向互补。E表示两端完全匹配，C表示允许错配下的预测覆盖，–表示未预测扩增，?表示参考信息不足。已覆盖行显示独立复核的原始序列结合模板，其他行显示参考同源列。可单独打开[普通1](figures/base_matching_MiScle-1.svg)、[简并1](figures/base_matching_MiScle-1D.svg)、[普通2](figures/base_matching_MiScle-2.svg)、[简并2](figures/base_matching_MiScle-2D.svg)查看全部物种。
+下图两端均按引物合成方向5′→3′展示，R端模板已取反向互补。E表示两端完全匹配，C表示允许错配下的预测覆盖，–表示未预测扩增，?表示参考信息不足。已覆盖行显示独立复核的原始序列结合模板，其他行显示参考同源列。可单独打开[普通S](figures/base_matching_MiScle-S.svg)、[简并S](figures/base_matching_MiScle-SD.svg)、[普通M](figures/base_matching_MiScle-M.svg)、[简并M](figures/base_matching_MiScle-MD.svg)查看全部物种。
 
-![普通1碱基匹配](figures/base_matching_MiScle-1.svg)
+![普通S碱基匹配](figures/base_matching_MiScle-S.svg)
 
-![简并1碱基匹配](figures/base_matching_MiScle-1D.svg)
+![简并S碱基匹配](figures/base_matching_MiScle-SD.svg)
 
-![普通2碱基匹配](figures/base_matching_MiScle-2.svg)
+![普通M碱基匹配](figures/base_matching_MiScle-M.svg)
 
-![简并2碱基匹配](figures/base_matching_MiScle-2D.svg)
+![简并M碱基匹配](figures/base_matching_MiScle-MD.svg)
 
 ## 复核与文件
 

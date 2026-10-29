@@ -1,5 +1,5 @@
 {
-  "MiScle-1": [
+  "MiScle-S": [
     {
       "scenario": "50_per_variant",
       "F_tm_min": 56.532943171742204,
@@ -17,7 +17,7 @@
       "structure_max": 52.51776306225753
     }
   ],
-  "MiScle-2": [
+  "MiScle-M": [
     {
       "scenario": "50_per_variant",
       "F_tm_min": 54.12638317056337,
@@ -35,7 +35,7 @@
       "structure_max": 42.85041894086845
     }
   ],
-  "MiScle-1D": [
+  "MiScle-SD": [
     {
       "scenario": "50_per_variant",
       "F_tm_min": 54.33090029268112,
@@ -53,7 +53,7 @@
       "structure_max": 52.51776306225753
     }
   ],
-  "MiScle-2D": [
+  "MiScle-MD": [
     {
       "scenario": "50_per_variant",
       "F_tm_min": 51.85120186157502,

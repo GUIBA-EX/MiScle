@@ -14,5 +14,5 @@ for i,(r,col) in enumerate(zip(rows,['#087e8b','#c28b29'])):
  for a,b in ((fs,fe),(re,rs)):ax.annotate('',xy=(b,i),xytext=(a,i),arrowprops=dict(arrowstyle='-|>',lw=4,color=col,shrinkA=0,shrinkB=0))
  ax.text((fe+rs)/2,i-.19,f"Reference span: {r['reference_span']} bp",ha='center',fontsize=11);ax.text(fs,i+.25,f'F {fs}–{fe}',color=col,fontsize=10);ax.text(re,i+.25,f'R {rs}–{re}',color=col,ha='right',fontsize=10)
 ax.set_yticks(range(2),[r['name'].replace('MiScle-','Window ') for r in rows],fontsize=13);ax.set_ylim(1.6,-.6);ax.set_xlim(1520,1885);ax.grid(axis='x',alpha=.15);ax.tick_params(axis='y',length=0);ax.set_xlabel('NC_003522.1 · ungapped mitochondrial 16S positions (1-based)',labelpad=10)
-fig.text(.05,.055,'Predicted products in covered references: window 1, 147–209 bp; window 2, 99–186 bp.\nWindow numbers denote homologous sites, not a universal length ranking.',fontsize=10,color='#50655e',linespacing=1.6)
+fig.text(.05,.055,'Predicted products in covered references: window S, 147–209 bp; window M, 99–186 bp.\nS and M label homologous windows; product lengths vary among lineages.',fontsize=10,color='#50655e',linespacing=1.6)
 for ext in ('svg','png','pdf'):fig.savefig(p/f'figures/reference_windows.{ext}',dpi=180,facecolor='white')

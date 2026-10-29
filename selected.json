@@ -1,6 +1,6 @@
 [
   {
-    "region": "1",
+    "region": "S",
     "F": "TTTGATAAGTGGGACAGTTTGG",
     "R": "TTAACGGGTCACTTAAACCC",
     "F_start": 1696,
@@ -32,14 +32,14 @@
     "WC3": 0,
     "strict_GT": 0,
     "GT2": 0,
-    "name": "MiScle-1",
+    "name": "MiScle-S",
     "degeneracy_F": 1,
     "degeneracy_R": 1,
     "background_gate": true,
     "trial_id": "S"
   },
   {
-    "region": "2",
+    "region": "M",
     "F": "AAGTCCCTATGGAGCTTTAC",
     "R": "CCATAGTTCATTTTCGTTAC",
     "F_start": 1561,
@@ -71,14 +71,14 @@
     "WC3": 0,
     "strict_GT": 0,
     "GT2": 0,
-    "name": "MiScle-2",
+    "name": "MiScle-M",
     "degeneracy_F": 1,
     "degeneracy_R": 1,
     "background_gate": true,
     "trial_id": "M"
   },
   {
-    "region": "1",
+    "region": "S",
     "F": "YTKGATAAGTGRGACAGTTTGG",
     "R": "YYAACGGGTCACTTWAACCC",
     "F_start": 1696,
@@ -97,7 +97,7 @@
     "WC4": 211,
     "strict_GT": 0,
     "GT2": 0,
-    "name": "MiScle-1D",
+    "name": "MiScle-SD",
     "thermal": [
       {
         "scenario": "50_per_variant",
@@ -121,7 +121,7 @@
     "trial_id": "SD"
   },
   {
-    "region": "2",
+    "region": "M",
     "F": "AAGWCCCYATGGARCTTTAC",
     "R": "YCATAGYTCRTTTTCGTTAC",
     "F_start": 1561,
@@ -140,7 +140,7 @@
     "WC4": 5,
     "strict_GT": 0,
     "GT2": 4,
-    "name": "MiScle-2D",
+    "name": "MiScle-MD",
     "thermal": [
       {
         "scenario": "50_per_variant",

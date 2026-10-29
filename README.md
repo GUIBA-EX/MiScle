@@ -12,14 +12,14 @@ Among 305 species evaluable at one or both windows, the predicted detection unio
 
 ## Primers
 
-Sequences are the target-specific portions, written 5′→3′ without adapters. Window numbers indicate homologous reference positions, rather than universal product-size classes. D denotes degeneracy.
+Sequences are the target-specific portions, written 5′→3′ without adapters. S and M label homologous reference windows; actual product lengths vary among lineages. D denotes degeneracy.
 
 | Pair | Forward, 5′→3′ | Reverse, 5′→3′ | F/R degeneracy |
 |---|---|---|---:|
-| MiScle-1 | `TTTGATAAGTGGGACAGTTTGG` | `TTAACGGGTCACTTAAACCC` | 1 / 1 |
-| MiScle-1D | `YTKGATAAGTGRGACAGTTTGG` | `YYAACGGGTCACTTWAACCC` | 8 / 8 |
-| MiScle-2 | `AAGTCCCTATGGAGCTTTAC` | `CCATAGTTCATTTTCGTTAC` | 1 / 1 |
-| MiScle-2D | `AAGWCCCYATGGARCTTTAC` | `YCATAGYTCRTTTTCGTTAC` | 8 / 8 |
+| MiScle-S | `TTTGATAAGTGGGACAGTTTGG` | `TTAACGGGTCACTTAAACCC` | 1 / 1 |
+| MiScle-SD | `YTKGATAAGTGRGACAGTTTGG` | `YYAACGGGTCACTTWAACCC` | 8 / 8 |
+| MiScle-M | `AAGTCCCTATGGAGCTTTAC` | `CCATAGTTCATTTTCGTTAC` | 1 / 1 |
+| MiScle-MD | `AAGWCCCYATGGARCTTTAC` | `YCATAGYTCRTTTTCGTTAC` | 8 / 8 |
 
 Y=C/T; K=G/T; R=A/G; W=A/T. Each D oligo represents eight concrete sequences, giving up to 64 F×R combinations per pair. Supported ambiguity is allowed throughout the oligo; the earlier projects' restriction to the 3′ half was not applied to this design.
 
@@ -33,7 +33,7 @@ Hisata et al. (2025) developed a **12S** assay. Here, annotated mitochondrial 16
 
 A target query returned 1,974 records. Combined curation retained 879 eligible 16S records. One representative per source taxid and binomial species label was selected using gene completeness, length and ambiguity, without selecting for primer compatibility. The panel contains 307 species labels, 131 genera and 29 source family labels. Source taxonomy has not undergone a complete synonym and family revision, so these are not asserted to be 29 currently accepted families. Only annotated 16S/large-subunit mitochondrial rRNA features were extracted, with feature orientation preserved. Records shorter than 150 nt or with more than 5% ambiguous bases were excluded.
 
-MAFFT was used for alignment (Katoh & Standley, 2013). Coordinates refer to the extracted, ungapped 16S gene of *Acropora tenuis*, NC_003522.1, rather than whole-mitogenome positions. Window 1 is F1696–1717/R1826–1845, with a 150-bp reference span; window 2 is F1561–1580/R1741–1760, with a 200-bp span. Lineage-specific indels produce actual predicted primer-inclusive products of 147–209 bp and 99–186 bp, respectively.
+MAFFT was used for alignment (Katoh & Standley, 2013). Coordinates refer to the extracted, ungapped 16S gene of *Acropora tenuis*, NC_003522.1, rather than whole-mitogenome positions. Window S is F1696–1717/R1826–1845, with a 150-bp reference span; window M is F1561–1580/R1741–1760, with a 200-bp span. Lineage-specific indels produce actual predicted primer-inclusive products of 147–209 bp and 99–186 bp, respectively.
 
 ![Reference binding windows](figures/reference_windows.svg)
 
@@ -59,14 +59,14 @@ Independent C++ exhaustive paired scans and Python bit-parallel scans agree on a
 
 | Pair | Evaluable species | Covered | Exact paired matches | Strict WC / GT | Relaxed WC3 / GT2 / WC4 |
 |---|---:|---:|---:|---:|---:|
-| MiScle-1 | 304 | 153 (50.33%) | 64 (21.05%) | 0 / 0 | 0 / 0 / 0 |
-| MiScle-1D | 304 | 155 (50.99%) | 125 (41.12%) | 0 / 0 | 6 / 0 / 211 |
-| MiScle-2 | 304 | 124 (40.79%) | 1 (0.33%) | 0 / 0 | 0 / 0 / 4 |
-| MiScle-2D | 304 | 124 (40.79%) | 81 (26.64%) | 0 / 0 | 4 / 4 / 5 |
+| MiScle-S | 304 | 153 (50.33%) | 64 (21.05%) | 0 / 0 | 0 / 0 / 0 |
+| MiScle-SD | 304 | 155 (50.99%) | 125 (41.12%) | 0 / 0 | 6 / 0 / 211 |
+| MiScle-M | 304 | 124 (40.79%) | 1 (0.33%) | 0 / 0 | 0 / 0 / 4 |
+| MiScle-MD | 304 | 124 (40.79%) | 81 (26.64%) | 0 / 0 | 4 / 4 / 5 |
 | Ordinary two-assay union | 305 | 277 (90.82%) | 65 (21.31%) | 0 / 0 | See individual pairs |
 | D two-assay union | 305 | 279 (91.48%) | 206 (67.54%) | 0 / 0 | See individual pairs |
 
-On the same 303-species common panel, ordinary and D unions cover 277 and 279 species and exactly match 65 and 206, respectively. The improvement is therefore not a denominator effect. The 211 WC4 background hits of MiScle-1D indicate residual cross-amplification sensitivity despite zero strict hits.
+On the same 303-species common panel, ordinary and D unions cover 277 and 279 species and exactly match 65 and 206, respectively. The improvement is therefore not a denominator effect. The 211 WC4 background hits of MiScle-SD indicate residual cross-amplification sensitivity despite zero strict hits.
 
 The D union misses 26 evaluable species: 14 source-labelled Caryophylliidae, all four Micrabaciidae representatives, two Anthemiphylliidae, two Acroporidae and one each from Agariciidae, Dendrophylliidae, Montastraeidae and Pocilloporidae. These candidates do not yet provide complete Scleractinia coverage.
 
@@ -74,19 +74,19 @@ The D union misses 26 evaluable species: 14 source-labelled Caryophylliidae, all
 
 ## Barcode resolution and base matching
 
-Among covered reference species, only 25/153, 27/155, 26/124 and 26/124 have an internal barcode not shared identically with another covered species for MiScle-1, 1D, 2 and 2D, respectively. Cross-genus sharing also occurs. These are observations within the frozen library, not identification-success estimates. Classify each window separately and aggregate taxonomic detections; unlinked eDNA amplicons cannot be treated as phased multilocus haplotypes.
+Among covered reference species, only 25/153, 27/155, 26/124 and 26/124 have an internal barcode not shared identically with another covered species for MiScle-S, SD, M and MD, respectively. Cross-genus sharing also occurs. These are observations within the frozen library, not identification-success estimates. Classify each window separately and aggregate taxonomic detections; unlinked eDNA amplicons cannot be treated as phased multilocus haplotypes.
 
 Both ends below are shown in primer synthesis orientation, 5′→3′; R templates are reverse-complemented. E denotes exact paired matching, C predicted coverage with allowed mismatches, – no predicted hit and ? insufficient reference information. Covered rows use independently verified raw-sequence templates; other rows show homologous reference columns. Open individual SVG files to inspect all species.
 
 [Resolution](barcode_resolution.csv) · [Shared barcodes](shared_barcodes.csv) · [Verified templates and products](verified_templates.csv)
 
-![Ordinary window 1](figures/base_matching_MiScle-1.svg)
+![Ordinary window S](figures/base_matching_MiScle-S.svg)
 
-![Degenerate window 1](figures/base_matching_MiScle-1D.svg)
+![Degenerate window S](figures/base_matching_MiScle-SD.svg)
 
-![Ordinary window 2](figures/base_matching_MiScle-2.svg)
+![Ordinary window M](figures/base_matching_MiScle-M.svg)
 
-![Degenerate window 2](figures/base_matching_MiScle-2D.svg)
+![Degenerate window M](figures/base_matching_MiScle-MD.svg)
 
 ## Reproduction and files
 

@@ -4,8 +4,8 @@
     "Independent Python bit-parallel raw-sequence paired scan"
   ],
   "final_pairs": 6,
-  "mixture_cross_pairs": 8,
-  "independent_set_checks": 84,
+  "mixture_cross_pairs": 16,
+  "independent_set_checks": 132,
   "disagreements": 0,
   "target_product_bp": [
     70,

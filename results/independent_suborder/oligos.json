@@ -1,0 +1,632 @@
+[
+  {
+    "id": "O0000",
+    "side": "F",
+    "sequence": "AAGACCCCATGAAACTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0001",
+    "side": "F",
+    "sequence": "AAGACCCCATGGAACATTAG",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0002",
+    "side": "F",
+    "sequence": "AAGACCCCATGGAACTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0003",
+    "side": "F",
+    "sequence": "AAGACCCCATGGAACWTTAS",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0004",
+    "side": "F",
+    "sequence": "AAGACCCCATGGAGCTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0005",
+    "side": "F",
+    "sequence": "AAGACCCCATGRAACTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0006",
+    "side": "F",
+    "sequence": "AAGACCCCATGRAACWTTAS",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0007",
+    "side": "F",
+    "sequence": "AAGACCCCATGRARCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0008",
+    "side": "F",
+    "sequence": "AAGDCCCCATGGAACTTTAC",
+    "degeneracy": 3
+  },
+  {
+    "id": "O0009",
+    "side": "F",
+    "sequence": "AAGDCCCCATGGARCTTTAC",
+    "degeneracy": 6
+  },
+  {
+    "id": "O0010",
+    "side": "F",
+    "sequence": "AAGDCCCCATGRAACTTTAC",
+    "degeneracy": 6
+  },
+  {
+    "id": "O0011",
+    "side": "F",
+    "sequence": "AAGGCCCCATGGAACTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0012",
+    "side": "F",
+    "sequence": "AAGKCCCCATGGAACTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0013",
+    "side": "F",
+    "sequence": "AAGKCCCCATGGARCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0014",
+    "side": "F",
+    "sequence": "AAGRCCCCATGGAACTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0015",
+    "side": "F",
+    "sequence": "AAGRCCCCATGGAACWTTAS",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0016",
+    "side": "F",
+    "sequence": "AAGRCCCCATGRAACTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0017",
+    "side": "F",
+    "sequence": "AAGTCCCCATGAAGCTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0018",
+    "side": "F",
+    "sequence": "AAGTCCCCATGGAACTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0019",
+    "side": "F",
+    "sequence": "AAGTCCCCATGGAGCTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0020",
+    "side": "F",
+    "sequence": "AAGTCCCCATGGARCTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0021",
+    "side": "F",
+    "sequence": "AAGTCCCCATGRAGCTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0022",
+    "side": "F",
+    "sequence": "AAGTCCCCATGRARCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0023",
+    "side": "F",
+    "sequence": "AAGTCCCCGTGGAGCTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0024",
+    "side": "F",
+    "sequence": "AAGTCCCCRTGGARCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0025",
+    "side": "F",
+    "sequence": "AAGTCCCCRTGRAGCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0026",
+    "side": "F",
+    "sequence": "AAGTCCCCRTGRARCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0027",
+    "side": "F",
+    "sequence": "AAGTCCCTATGGAACTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0028",
+    "side": "F",
+    "sequence": "AAGTCCCTATGGAGCTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0029",
+    "side": "F",
+    "sequence": "AAGTCCCYATGGAACTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0030",
+    "side": "F",
+    "sequence": "AAGTCCCYATGGARCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0031",
+    "side": "F",
+    "sequence": "AAGTCCCYATGRAGCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0032",
+    "side": "F",
+    "sequence": "AAGTCCCYATGRARCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0033",
+    "side": "F",
+    "sequence": "AAGTCCCYRTGGAGCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0034",
+    "side": "F",
+    "sequence": "AAGTCCCYRTGGARCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0035",
+    "side": "F",
+    "sequence": "AAGTCCCYRTGRAGCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0036",
+    "side": "F",
+    "sequence": "AAGWCCCCATGGAACTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0037",
+    "side": "F",
+    "sequence": "AAGWCCCCATGGAACWTTAS",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0038",
+    "side": "F",
+    "sequence": "AAGWCCCCATGGAGCTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0039",
+    "side": "F",
+    "sequence": "AAGWCCCCATGGARCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0040",
+    "side": "F",
+    "sequence": "AAGWCCCCATGRAACTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0041",
+    "side": "F",
+    "sequence": "AAGWCCCCATGRAGCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0042",
+    "side": "F",
+    "sequence": "AAGWCCCCATGRARCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0043",
+    "side": "F",
+    "sequence": "AAGWCCCCRTGGAGCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0044",
+    "side": "F",
+    "sequence": "AAGWCCCCRTGGARCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0045",
+    "side": "F",
+    "sequence": "AAGWCCCCRTGRAGCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0046",
+    "side": "F",
+    "sequence": "AAGWCCCYATGGAACTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0047",
+    "side": "F",
+    "sequence": "AAGWCCCYATGGAGCTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0048",
+    "side": "F",
+    "sequence": "AAGWCCCYATGGARCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0049",
+    "side": "F",
+    "sequence": "AAGWCCCYATGRAACTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0050",
+    "side": "F",
+    "sequence": "AAGWCCCYATGRAGCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0051",
+    "side": "F",
+    "sequence": "AAGWCCCYRTGGAGCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0052",
+    "side": "F",
+    "sequence": "GAGGCCCCATGGAACTTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0053",
+    "side": "F",
+    "sequence": "RAGDCCCCATGGAACTTTAC",
+    "degeneracy": 6
+  },
+  {
+    "id": "O0054",
+    "side": "F",
+    "sequence": "RAGGCCCCATGGAACTTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0055",
+    "side": "F",
+    "sequence": "RAGKCCCCATGGAACTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0056",
+    "side": "F",
+    "sequence": "RAGKCCCCATGGARCTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0057",
+    "side": "F",
+    "sequence": "RAGRCCCCATGGAACTTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0058",
+    "side": "F",
+    "sequence": "RAGRCCCCATGRAACTTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0059",
+    "side": "R",
+    "sequence": "CCATAGTTCATTTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0060",
+    "side": "R",
+    "sequence": "CCATAGTTCGTCTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0061",
+    "side": "R",
+    "sequence": "CCATAGTTCGTTTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0062",
+    "side": "R",
+    "sequence": "CCATAGTTCGTTTTTGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0063",
+    "side": "R",
+    "sequence": "CCATAGTTCGTTTTYGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0064",
+    "side": "R",
+    "sequence": "CCATAGTTCGTYTTYGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0065",
+    "side": "R",
+    "sequence": "CCATAGTTCRTTTTCGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0066",
+    "side": "R",
+    "sequence": "CCATAGTTCRTTTTYGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0067",
+    "side": "R",
+    "sequence": "CCATAGTTCRTYTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0068",
+    "side": "R",
+    "sequence": "CCATAGTTCRTYTTYGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0069",
+    "side": "R",
+    "sequence": "CCCTAGTTCATTTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0070",
+    "side": "R",
+    "sequence": "CCMTAGTTCATTTTCGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0071",
+    "side": "R",
+    "sequence": "CCMTAGTTCRTTTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0072",
+    "side": "R",
+    "sequence": "CCMTAGTTCRTTTTYGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0073",
+    "side": "R",
+    "sequence": "CCMTAGTTCRTYTTCGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0074",
+    "side": "R",
+    "sequence": "CTCCAGCCCGACTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0075",
+    "side": "R",
+    "sequence": "CTTAACGTCCGCCTTCTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0076",
+    "side": "R",
+    "sequence": "CTTAAGCCCACCTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0077",
+    "side": "R",
+    "sequence": "CTTAAGCCCGCCTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0078",
+    "side": "R",
+    "sequence": "CTTAAGTCCGCCTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0079",
+    "side": "R",
+    "sequence": "CTTAAGYCCGCCTTCGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0080",
+    "side": "R",
+    "sequence": "CTTGAGTCCGCCTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0081",
+    "side": "R",
+    "sequence": "CTTRAGTCCGCCTTCGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0082",
+    "side": "R",
+    "sequence": "CTTRAGYCCGCCTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0083",
+    "side": "R",
+    "sequence": "CTTTAGCTCACTTTTGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0084",
+    "side": "R",
+    "sequence": "CTTTAGTTCGCCCTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0085",
+    "side": "R",
+    "sequence": "CTYMAGCCCGMCTTCGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0086",
+    "side": "R",
+    "sequence": "TCATAGCTCATTTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0087",
+    "side": "R",
+    "sequence": "TCATAGTTCATTTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0088",
+    "side": "R",
+    "sequence": "TCATAGTTCGTTTTCGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0089",
+    "side": "R",
+    "sequence": "TCATAGTTCRTTTTCGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0090",
+    "side": "R",
+    "sequence": "TCATAGYTCRTTTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0091",
+    "side": "R",
+    "sequence": "TTCTAGCTCACTTTTGTTAC",
+    "degeneracy": 1
+  },
+  {
+    "id": "O0092",
+    "side": "R",
+    "sequence": "YCATAGTTCATTTTCGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0093",
+    "side": "R",
+    "sequence": "YCATAGTTCGTTTTCGTTAC",
+    "degeneracy": 2
+  },
+  {
+    "id": "O0094",
+    "side": "R",
+    "sequence": "YCATAGTTCGTTTTYGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0095",
+    "side": "R",
+    "sequence": "YCATAGTTCGTYTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0096",
+    "side": "R",
+    "sequence": "YCATAGTTCGTYTTYGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0097",
+    "side": "R",
+    "sequence": "YCATAGTTCRTTTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0098",
+    "side": "R",
+    "sequence": "YCATAGTTCRTTTTYGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0099",
+    "side": "R",
+    "sequence": "YCATAGTTCRTYTTCGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0100",
+    "side": "R",
+    "sequence": "YCATAGYTCATTTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0101",
+    "side": "R",
+    "sequence": "YCATAGYTCRTTTTCGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0102",
+    "side": "R",
+    "sequence": "YCMTAGTTCATTTTCGTTAC",
+    "degeneracy": 4
+  },
+  {
+    "id": "O0103",
+    "side": "R",
+    "sequence": "YCMTAGTTCRTTTTCGTTAC",
+    "degeneracy": 8
+  },
+  {
+    "id": "O0104",
+    "side": "R",
+    "sequence": "YCMTAGYTCATTTTCGTTAC",
+    "degeneracy": 8
+  }
+]

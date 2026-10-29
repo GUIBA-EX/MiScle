@@ -1,429 +1,214 @@
 mode,model,accession,organism,lineage,from_intended_pairs,from_other_mixture_pairs
-ordinary,WC,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,WC,BK069894.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-ordinary,WC,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,WC,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,WC,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,WC,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,WC,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,0
-ordinary,WC,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,WC,JBWBEE010002526.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KJ482972.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-ordinary,WC,KP761225.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761226.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761227.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761228.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761229.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761230.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761231.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761232.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761233.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761234.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761235.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761236.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761237.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761239.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761240.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761241.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761242.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KP761243.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,WC,KP761244.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761245.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761246.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761247.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761248.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761249.1,Exaiptasia sp. AG-2015,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761250.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,WC,KP761251.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761252.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761253.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KP761254.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761255.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761256.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761257.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-ordinary,WC,KP761258.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761259.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761260.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761261.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761262.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,WC,KP761263.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761264.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761265.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761266.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761267.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761268.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761269.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761270.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761271.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761272.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761273.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761274.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761275.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP761276.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,WC,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,0
-ordinary,WC,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,WC,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-ordinary,WC,KP938440.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-ordinary,WC,KP938441.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,WC,KR186036.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-ordinary,WC,KR186037.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-ordinary,WC,KR186038.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,WC,KR186039.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KR186040.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,WC,KR186041.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,WC,KR186042.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186043.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186044.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186045.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186046.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186047.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186048.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186049.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KR186050.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,WC,KY849931.1,Aiptasiogeton sp. n. AG-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasiogeton,1,0
-ordinary,WC,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,WC,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,MH308004.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,WC,MH308005.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,WC,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,WC,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,WC,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,WC,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,WC,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,WC,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,WC,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-ordinary,WC,NC_027106.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,WC,NC_056771.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,GT,BK069894.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-ordinary,GT,BK069899.1,Heteractis aurora,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Stichodactylidae;Heteractis,1,0
-ordinary,GT,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,GT,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,GT,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,GT,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,GT,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,0
-ordinary,GT,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,GT,EF589058.1,Corynactis viridis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-ordinary,GT,EF589059.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-ordinary,GT,EF589060.1,Corallimorphus pilatus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-ordinary,GT,JBWBEE010002526.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KJ482972.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-ordinary,GT,KP761225.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761226.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761227.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761228.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761229.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761230.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761231.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761232.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761233.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761234.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761235.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761236.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761237.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761239.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761240.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761241.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761242.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KP761243.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,GT,KP761244.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761245.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761246.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761247.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761248.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761249.1,Exaiptasia sp. AG-2015,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761250.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,GT,KP761251.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761252.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761253.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KP761254.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761255.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761256.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761257.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-ordinary,GT,KP761258.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761259.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761260.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761261.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761262.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-ordinary,GT,KP761263.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761264.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761265.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761266.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761267.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761268.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761269.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761270.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761271.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761272.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761273.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761274.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761275.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP761276.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,GT,KP938436.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-ordinary,GT,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,0
-ordinary,GT,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,GT,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-ordinary,GT,KP938440.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-ordinary,GT,KP938441.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,GT,KR186036.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-ordinary,GT,KR186037.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-ordinary,GT,KR186038.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,GT,KR186039.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KR186040.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,KR186041.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-ordinary,GT,KR186042.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186043.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186044.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186045.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186046.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186047.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186048.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186049.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KR186050.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-ordinary,GT,KY849931.1,Aiptasiogeton sp. n. AG-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasiogeton,1,0
-ordinary,GT,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,GT,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,MH308004.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,GT,MH308005.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,GT,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,GT,MK279363.1,Halcampulactis solimar,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Halcampulactidae;Halcampulactis,1,0
-ordinary,GT,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,GT,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,GT,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-ordinary,GT,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-ordinary,GT,NC_027102.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-ordinary,GT,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-ordinary,GT,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-ordinary,GT,NC_027106.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-ordinary,GT,NC_056771.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-ordinary,GT,U40293.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-D,WC,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,WC,BK069894.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-D,WC,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,WC,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,WC,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,WC,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,WC,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,0
-D,WC,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,WC,JBWBEE010002526.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KJ482972.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-D,WC,KP761225.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761226.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761227.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761228.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761229.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761230.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761231.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761232.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761233.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761234.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761235.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761236.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761237.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761239.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761240.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761241.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761242.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KP761243.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,WC,KP761244.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761245.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761246.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761247.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761248.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761249.1,Exaiptasia sp. AG-2015,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761250.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,WC,KP761251.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761252.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761253.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KP761254.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761255.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761256.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761257.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-D,WC,KP761258.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761259.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761260.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761261.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761262.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,WC,KP761263.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761264.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761265.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761266.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761267.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761268.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761269.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761270.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761271.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761272.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761273.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761274.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761275.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP761276.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,WC,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,0
-D,WC,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,WC,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-D,WC,KP938440.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-D,WC,KP938441.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,WC,KR186036.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-D,WC,KR186037.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-D,WC,KR186038.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,WC,KR186039.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KR186040.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,WC,KR186041.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,WC,KR186042.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186043.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186044.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186045.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186046.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186047.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186048.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186049.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KR186050.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,WC,KY849931.1,Aiptasiogeton sp. n. AG-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasiogeton,1,0
-D,WC,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,WC,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,MH308004.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,WC,MH308005.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,WC,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,WC,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,WC,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,WC,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,WC,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,WC,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,WC,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-D,WC,NC_027106.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,WC,NC_056771.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,GT,BK069894.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-D,GT,BK069899.1,Heteractis aurora,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Stichodactylidae;Heteractis,1,0
-D,GT,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,GT,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,GT,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,GT,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,GT,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,0
-D,GT,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,GT,EF589058.1,Corynactis viridis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-D,GT,EF589059.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-D,GT,EF589060.1,Corallimorphus pilatus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-D,GT,JBWBEE010002526.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KJ482972.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-D,GT,KP761225.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761226.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761227.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761228.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761229.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761230.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761231.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761232.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761233.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761234.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761235.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761236.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761237.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761239.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761240.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761241.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761242.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KP761243.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,GT,KP761244.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761245.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761246.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761247.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761248.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761249.1,Exaiptasia sp. AG-2015,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761250.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,GT,KP761251.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761252.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761253.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KP761254.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761255.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761256.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761257.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,0
-D,GT,KP761258.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761259.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761260.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761261.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761262.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,0
-D,GT,KP761263.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761264.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761265.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761266.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761267.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761268.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761269.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761270.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761271.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761272.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761273.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761274.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761275.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP761276.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,GT,KP938436.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-D,GT,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,0
-D,GT,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,GT,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-D,GT,KP938440.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,0
-D,GT,KP938441.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,GT,KR186036.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-D,GT,KR186037.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,0
-D,GT,KR186038.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,GT,KR186039.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KR186040.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,KR186041.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,0
-D,GT,KR186042.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186043.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186044.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186045.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186046.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186047.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186048.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186049.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KR186050.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,0
-D,GT,KY849931.1,Aiptasiogeton sp. n. AG-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasiogeton,1,0
-D,GT,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,GT,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,MH308004.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,GT,MH308005.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,GT,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,GT,MK279363.1,Halcampulactis solimar,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Halcampulactidae;Halcampulactis,1,0
-D,GT,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,GT,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,GT,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,0
-D,GT,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,0
-D,GT,NC_027102.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
-D,GT,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,0
-D,GT,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,0
-D,GT,NC_027106.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,0
-D,GT,NC_056771.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,0
-D,GT,U40293.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,0
+ordinary,WC,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,WC,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,WC,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,WC,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,WC,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,WC,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,1
+ordinary,WC,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,WC,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,WC,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,1
+ordinary,WC,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,WC,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+ordinary,WC,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,WC,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,WC,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,WC,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,WC,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,WC,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,WC,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,WC,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+ordinary,GT,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,GT,BK069894.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,1
+ordinary,GT,BK069899.1,Heteractis aurora,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Stichodactylidae;Heteractis,1,1
+ordinary,GT,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,GT,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,GT,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,GT,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,GT,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,1
+ordinary,GT,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,GT,EF589058.1,Corynactis viridis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+ordinary,GT,EF589059.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+ordinary,GT,EF589060.1,Corallimorphus pilatus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+ordinary,GT,JBWBEE010002526.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KJ482972.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+ordinary,GT,KP761225.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761226.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761227.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761228.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761229.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761230.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761231.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761232.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761233.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761234.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761235.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761236.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761237.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761239.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761240.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761241.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761242.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KP761243.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,1
+ordinary,GT,KP761244.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761245.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761246.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761247.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761248.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761249.1,Exaiptasia sp. AG-2015,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761250.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,1
+ordinary,GT,KP761251.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761252.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761253.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KP761254.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761255.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761256.1,Aiptasia mutabilis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761257.1,Ragactis hyalina,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Ragactis,1,1
+ordinary,GT,KP761258.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761259.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761260.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761261.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761262.1,Aiptasia couchii,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasia,1,1
+ordinary,GT,KP761263.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761264.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761265.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761266.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761267.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761268.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761269.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761270.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761271.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761272.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761273.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761274.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761275.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP761276.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,GT,KP938436.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+ordinary,GT,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,1
+ordinary,GT,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,GT,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+ordinary,GT,KP938440.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+ordinary,GT,KP938441.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,GT,KR186036.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,1
+ordinary,GT,KR186037.1,Bellactis ilkalyseae,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bellactis,1,1
+ordinary,GT,KR186038.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,1
+ordinary,GT,KR186039.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KR186040.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,KR186041.1,Laviactis lucida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Laviactis,1,1
+ordinary,GT,KR186042.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186043.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186044.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186045.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186046.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186047.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186048.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186049.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KR186050.1,Bartholomea annulata,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Bartholomea,1,1
+ordinary,GT,KY849931.1,Aiptasiogeton sp. n. AG-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Aiptasiogeton,1,1
+ordinary,GT,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,GT,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,MH308004.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,GT,MH308005.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,GT,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,GT,MK279363.1,Halcampulactis solimar,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Halcampulactidae;Halcampulactis,1,1
+ordinary,GT,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,GT,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,GT,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+ordinary,GT,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+ordinary,GT,NC_027102.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+ordinary,GT,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+ordinary,GT,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+ordinary,GT,NC_027106.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+ordinary,GT,NC_056771.1,Exaiptasia diaphana,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Aiptasiidae;Exaiptasia,1,1
+ordinary,GT,U40293.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+D,WC,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,WC,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,WC,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,WC,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,WC,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,WC,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,1
+D,WC,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,WC,KJ482972.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+D,WC,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,WC,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,1
+D,WC,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,WC,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+D,WC,KP938440.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+D,WC,KP938441.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,WC,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,WC,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,MH308004.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,WC,MH308005.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,WC,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,WC,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,WC,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,WC,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,WC,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,WC,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,WC,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+D,WC,NC_027106.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,GT,AY345878.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,GT,BK069899.1,Heteractis aurora,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Stichodactylidae;Heteractis,1,1
+D,GT,DQ640647.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,GT,DQ640648.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,GT,DQ643965.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,DQ643966.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,EF589051.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,EF589052.1,Discosoma neglecta,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,EF589053.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,GT,EF589054.1,Rhodactis rhodostoma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,GT,EF589055.1,Metarhodactis sp. HC-2007a,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Metarhodactis,1,1
+D,GT,EF589056.1,Rhodactis osculifera,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,GT,EF589058.1,Corynactis viridis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+D,GT,EF589059.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+D,GT,EF589060.1,Corallimorphus pilatus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+D,GT,KJ482972.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+D,GT,KP938434.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,KP938435.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,GT,KP938436.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+D,GT,KP938437.1,Pseudocorynactis sp. SIO,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Pseudocorynactis,1,1
+D,GT,KP938438.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,GT,KP938439.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+D,GT,KP938440.1,Corallimorphus profundus,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corallimorphus,1,1
+D,GT,KP938441.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,GT,LC895241.1,Halcampella sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Halcampidae;Halcampella,1,0
+D,GT,LC895243.1,Halcampella sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Actiniaria;Halcampidae;Halcampella,1,0
+D,GT,MH308002.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,GT,MH308003.1,Discosoma sp.,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,MH308004.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,GT,MH308005.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,GT,MH320096.1,Rhodactis sp. WK-2018,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,GT,NC_008071.1,Discosoma sp. CASIZ 168915,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,NC_008072.1,Discosoma sp. CASIZ 168916,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,NC_008158.1,Rhodactis sp. CASIZ 171755,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,GT,NC_008159.1,Ricordea florida,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,GT,NC_027100.1,Discosoma nummiforme,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Discosoma,1,1
+D,GT,NC_027101.1,Amplexidiscus fenestrafer,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Amplexidiscus,1,1
+D,GT,NC_027102.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1
+D,GT,NC_027103.1,Rhodactis indosinensis,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Rhodactis,1,1
+D,GT,NC_027104.1,Platyzoanthus mussoides,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Discosomidae;Platyzoanthus,1,1
+D,GT,NC_027106.1,Ricordea yuma,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Ricordeidae;Ricordea,1,1
+D,GT,U40293.1,Corynactis californica,Eukaryota;Metazoa;Cnidaria;Anthozoa;Hexacorallia;Corallimorpharia;Corallimorphidae;Corynactis,1,1

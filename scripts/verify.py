@@ -2,7 +2,7 @@
 from pathlib import Path
 import csv,json,sys,collections,concurrent.futures
 project=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else Path(__file__).resolve().parents[1]
-work=Path(sys.argv[2]).resolve() if len(sys.argv)>2 else project/'results/suborder_search'
+work=Path(sys.argv[2]).resolve() if len(sys.argv)>2 else project/'results/independent_suborder'
 sys.path.insert(0,str(project/'scripts'));from xs_raw_helpers import fa,rc,scan
 DB={}
 def init():
@@ -36,5 +36,5 @@ if __name__=='__main__':
    templates+=tt;print('PASS',name,role,model,len(cv),len(ex),flush=True)
  for filename,rows in [('independent_checks.csv',checks),('verified_templates.csv',templates)]:
   with (work/filename).open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=rows[0].keys(),lineterminator='\n');w.writeheader();w.writerows(rows)
- (work/'verification.json').write_text(json.dumps(dict(methods=['C++ exhaustive raw-sequence paired scan','Independent Python bit-parallel raw-sequence paired scan'],final_pairs=6,mixture_cross_pairs=8,independent_set_checks=len(checks),disagreements=0,target_product_bp=[70,500],target_min_internal_bp=20,background_internal_bp=[0,1000]),indent=2)+'\n')
+ (work/'verification.json').write_text(json.dumps(dict(methods=['C++ exhaustive raw-sequence paired scan','Independent Python bit-parallel raw-sequence paired scan'],final_pairs=sum(x['name'].startswith('MiScle-') for x in selected),mixture_cross_pairs=sum(not x['name'].startswith('MiScle-') for x in selected),independent_set_checks=len(checks),disagreements=0,target_product_bp=[70,500],target_min_internal_bp=20,background_internal_bp=[0,1000]),indent=2)+'\n')
  print('All independent paired sets agree.',flush=True)

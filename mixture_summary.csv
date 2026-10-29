@@ -1,0 +1,5 @@
+mode,model,separate_pair_union,mixed_all_pair_union,additional_background
+ordinary,WC,27,34,7
+ordinary,GT,111,549,438
+D,WC,33,1017,984
+D,GT,42,1044,1002

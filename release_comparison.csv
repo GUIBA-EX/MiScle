@@ -1,0 +1,11 @@
+stage,scheme,evaluable,covered,exact,strict_WC,strict_GT
+original,M_ordinary,304,124,1,0,0
+original,M_D,304,124,81,0,0
+shared_F,M_ordinary,304,282,78,103,111
+shared_F,M_D,304,284,98,103,111
+shared_F,S_plus_M_ordinary,305,283,124,103,111
+shared_F,S_plus_M_D,305,285,160,103,111
+independent_F_R,M_ordinary,304,282,41,27,111
+independent_F_R,M_D,304,281,128,33,42
+independent_F_R,S_plus_M_ordinary,305,283,105,27,111
+independent_F_R,S_plus_M_D,305,285,242,33,42

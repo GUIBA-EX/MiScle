@@ -2,7 +2,7 @@ from pathlib import Path
 import csv,json,collections,shutil,html,math,itertools
 import sys
 out=Path(__file__).resolve().parents[1]
-p=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else out/'results/suborder_search'
+p=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else out/'results/independent_suborder'
 def read(f):return list(csv.DictReader(Path(f).open()))
 def write(f,rr):
  if not rr:return
@@ -39,7 +39,13 @@ for mode,nn in [('ordinary',combos['M_ordinary']),('D',combos['M_D'])]:
   normal=set.union(*(hits(n,'background',model) for n in nn));extra=set.union(*(hits(x['name'],'background',model) for x in extras if x['name'].startswith('mixture_'+mode+'_')));allhits=normal|extra
   print('MIX',mode,model,'pairhits',len(normal),'extra',len(extra),'total',len(allhits))
   for a in sorted(allhits):bgr.append(dict(mode=mode,model=model,accession=a,organism=bgmeta[a]['organism'],lineage=bgmeta[a]['group'],from_intended_pairs=int(a in normal),from_other_mixture_pairs=int(a in extra)))
-write(out/'background_hits.csv',bgr)
+write(out/'mixture_background_hits.csv',bgr)
+write(out/'background_hits.csv',[r for r in bgr if r['from_intended_pairs']])
+mixtures=[]
+for mode,nn in [('ordinary',combos['M_ordinary']),('D',combos['M_D'])]:
+ for model in ['WC','GT']:
+  normal=set.union(*(hits(n,'background',model) for n in nn));extra=set.union(*(hits(x['name'],'background',model) for x in extras if x['name'].startswith('mixture_'+mode+'_')));mixtures.append(dict(mode=mode,model=model,separate_pair_union=len(normal),mixed_all_pair_union=len(normal|extra),additional_background=len(extra-normal)))
+write(out/'mixture_summary.csv',mixtures)
 # Internal-barcode sharing, with ambiguous barcodes counted separately.
 res=[];sharing=[]
 for x in final:
@@ -65,12 +71,12 @@ for x in final:
  height=210+len(meta)*21+len(fam)*30+80;el=[f'<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="{height}" viewBox="0 0 1900 {height}"><rect width="100%" height="100%" fill="#f7fbff"/>']
  def text(xx,y,s,size=14,mono=False):el.append(f'<text x="{xx}" y="{y}" font-family="{"monospace" if mono else "sans-serif"}" font-size="{size}" fill="#173647">{html.escape(str(s))}</text>')
  def rect(xx,y,w,h,c,stroke=None):el.append(f'<rect x="{xx}" y="{y}" width="{w}" height="{h}" fill="{c}"'+(f' stroke="{stroke}" stroke-width="2"' if stroke else '')+'/>')
- text(22,36,n+' · Primer–template base matching',24);text(22,65,'NC_003522.1 ungapped 16S | shared reference endpoints | F and R templates shown 5′→3′',17);text(22,91,'Blue: compatible | Orange: mismatch | Grey: gap / unknown | Box: final 3 nt',15);text(22,128,'Species / accession',15);text(535,128,'Hit',15)
+ text(22,36,n+' · Primer–template base matching'+(' · '+x['intended_suborder'] if x.get('intended_suborder') else ''),24);text(22,65,'NC_003522.1 ungapped 16S | shared reference endpoints | F and R templates shown 5′→3′',17);text(22,91,'Blue: compatible | Orange: mismatch | Grey: gap / unknown | Box: final 3 nt',15);text(22,128,'Species / accession',15);text(535,128,'Hit',15)
  for side,xx in [('F',580),('R',1200)]:
   text(xx,128,f"{side} {x[side+'_start']}–{x[side+'_end']} | variants {x['degeneracy_'+side]}",15)
   for j,c in enumerate(x[side]):rect(xx+j*19,140,18,21,'#cce7f0');text(xx+j*19+4,156,c,14,True)
  y=180
- for (g,family),ms in sorted(fam.items()):
+ for (g,family),ms in sorted(fam.items(),key=lambda item:(item[0][0]!=x.get('intended_suborder',item[0][0]),item[0])):
   rect(16,y,1868,25,'#e2eaf3');text(22,y+18,f'{g} · {family} | {len(ms)} reference species',15);y+=30
   for i,m in enumerate(sorted(ms,key=lambda z:z['organism'])):
    if i%2==0:rect(16,y,1868,20,'#eef5f9')

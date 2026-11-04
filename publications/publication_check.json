@@ -1,0 +1,23 @@
+{
+  "project": "MiScle",
+  "version": "1.0",
+  "date": "2026-11-04",
+  "author": "Fei Xia",
+  "pages": 11,
+  "oligos": 12,
+  "status": "PASS",
+  "checks": [
+    "README titles, dates and release citations",
+    "CFF and BibTeX",
+    "local document links",
+    "PDF author and title metadata",
+    "all released oligos in manuscript and PDF",
+    "visible figure captions",
+    "nonempty pages"
+  ],
+  "artifacts": {
+    "publications/MiScle_preprint.md": "013f8b1d089365358289feea40b74436673b4d53c29f2ccf33be75c2d0f1b066",
+    "publications/MiScle_preprint.pdf": "3323bc823a0b5e1123efa7ad353ba9249ba41c9e5255743a482cb4d29cea96ab",
+    "primers.fasta": "491abcf7d67a06fbd6cac7f9e98ea343fbaef5988b624ec647c13fe5977ed922"
+  }
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this project's primers, data or analysis code, please cite the versioned preprint."
+type: software
+title: "MiScle: in silico design and evaluation of mitochondrial 16S rRNA primers for scleractinian coral eDNA metabarcoding"
+authors:
+  - family-names: "Xia"
+    given-names: "Fei"
+date-released: "2026-11-04"
+url: "https://github.com/GUIBA-EX/MiScle"
+repository-code: "https://github.com/GUIBA-EX/MiScle"
+version: "1.0"
+preferred-citation:
+  type: unpublished
+  title: "MiScle: in silico design and evaluation of mitochondrial 16S rRNA primers for scleractinian coral eDNA metabarcoding"
+  authors:
+    - family-names: Xia
+      given-names: Fei
+  year: 2026
+  version: "1.0"
+  notes: "Computational preprint, version 1.0. Published on GitHub."
+  url: "https://github.com/GUIBA-EX/MiScle/releases/tag/preprint-v1.0"

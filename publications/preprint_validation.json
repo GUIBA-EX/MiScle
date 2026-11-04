@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "frozen source hashes",
+    "released sequences",
+    "intended suborder counts",
+    "same-tube comparison",
+    "132 independent checks"
+  ]
+}

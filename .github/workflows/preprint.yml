@@ -1,0 +1,80 @@
+name: Check and publish preprint
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: miscle-preprint-main
+  cancel-in-progress: false
+jobs:
+  preprint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install publication tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y pandoc poppler-utils
+          python -m pip install -r publications/requirements-preprint.txt biopython
+      - name: Determine whether publication inputs changed
+        id: version
+        run: |
+          tag=$(git tag --list 'preprint-v1.*' --sort=-version:refname | head -1)
+          if [ -z "$tag" ]; then
+            echo "next=1.0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "previous=$tag" >> "$GITHUB_OUTPUT"
+          if ! git diff --quiet "$tag" HEAD -- .; then
+            echo "next=1.$(( ${tag##*.} + 1 ))" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Rebuild and stamp the new version
+        if: steps.version.outputs.next != ''
+        env:
+          VERSION: ${{ steps.version.outputs.next }}
+          CHROME: /usr/bin/google-chrome
+        run: |
+          python scripts/stamp_preprint.py "$VERSION"
+          python publications/plot_paper.py
+          python publications/build_preprint.py
+      - name: Validate scientific tables and publication consistency
+        run: |
+          python publications/check_preprint.py
+          python scripts/check_release.py
+          python scripts/check_publication.py
+          python scripts/preprint_integrity.py
+      - name: Commit and tag verified artifacts
+        if: steps.version.outputs.next != ''
+        env:
+          VERSION: ${{ steps.version.outputs.next }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --update
+          git commit -m "Publish computational preprint v$VERSION"
+          git tag -a "preprint-v$VERSION" -m "MiScle preprint v$VERSION"
+          git push --atomic origin HEAD:main "refs/tags/preprint-v$VERSION"
+      - name: Complete tagged release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.next && format('preprint-v{0}', steps.version.outputs.next) || steps.version.outputs.previous }}
+        run: |
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --verify-tag --draft --title "MiScle computational preprint ${TAG#preprint-}" --notes "Fei Xia. Version ${TAG#preprint-v}. Computational preprint; not peer reviewed. The PDF, primer primers.fasta and SHA-256 checksums correspond to the tagged source."
+          fi
+          if [ "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = true ]; then
+            dir=$(mktemp -d)
+            for file in publications/MiScle_preprint.pdf primers.fasta publications/SHA256SUMS.txt; do
+              git show "$TAG:$file" > "$dir/${file##*/}"
+            done
+            (cd "$dir" && sha256sum -c SHA256SUMS.txt)
+            gh release upload "$TAG" "$dir"/* --clobber
+            gh release edit "$TAG" --draft=false
+          fi

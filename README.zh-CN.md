@@ -1,8 +1,15 @@
-# MiScle
+# MiScle: in silico design and evaluation of mitochondrial 16S rRNA primers for scleractinian coral eDNA metabarcoding
+
+**Fei Xia**
+
+<!-- publication:start -->
+**预印本 v1.0 · 2026 年 11 月 4 日 · 未经同行评审。**
+
+[PDF](publications/MiScle_preprint.pdf) · [论文 Markdown](publications/MiScle_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiScle/releases/tag/preprint-v1.0) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+<!-- publication:end -->
 
 [English](README.md)
 
-**MiScle, a set of PCR primer candidates for metabarcoding environmental DNA from scleractinian corals**
 
 ## 摘要
 
@@ -156,3 +163,7 @@ M-D分管并集在Vacatina内完全匹配117/154（75.97%），共用F版为12/1
 ## 著作权
 
 Copyright © 2026 Fei Xia (GUIBA-EX). 保留所有权利。未经书面许可禁止转载和再分发受保护的原创材料。公共数据库记录保留原有权利状态，详见[著作权与使用声明](COPYRIGHT.md)。
+
+## Citation
+
+Xia, F. (2026). *MiScle: in silico design and evaluation of mitochondrial 16S rRNA primers for scleractinian coral eDNA metabarcoding*. Computational preprint v1.0. [GitHub Release](https://github.com/GUIBA-EX/MiScle/releases/tag/preprint-v1.0).

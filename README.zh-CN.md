@@ -3,9 +3,9 @@
 **Fei Xia**
 
 <!-- publication:start -->
-**预印本 v1.0 · 2026 年 11 月 4 日 · 未经同行评审。**
+**预印本 v1.1 · 2026 年 11 月 4 日 · 未经同行评审。**
 
-[PDF](publications/MiScle_preprint.pdf) · [论文 Markdown](publications/MiScle_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiScle/releases/tag/preprint-v1.0) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+[PDF](publications/MiScle_preprint.pdf) · [论文 Markdown](publications/MiScle_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiScle/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
 <!-- publication:end -->
 
 [English](README.md)
@@ -166,4 +166,4 @@ Copyright © 2026 Fei Xia (GUIBA-EX). 保留所有权利。未经书面许可禁
 
 ## Citation
 
-Xia, F. (2026). *MiScle: in silico design and evaluation of mitochondrial 16S rRNA primers for scleractinian coral eDNA metabarcoding*. Computational preprint v1.0. [GitHub Release](https://github.com/GUIBA-EX/MiScle/releases/tag/preprint-v1.0).
+Xia, F. (2026). *MiScle: in silico design and evaluation of mitochondrial 16S rRNA primers for scleractinian coral eDNA metabarcoding*. Computational preprint v1.1. [GitHub Release](https://github.com/GUIBA-EX/MiScle/releases/tag/preprint-v1.1).
